@@ -23,6 +23,12 @@ export default function Home() {
             height={200}
           />
         </div>
+        <div className="w-96 text-center text-2xl italic mb-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded p-4">
+          <p>
+            Advocating for a free to use, safe, and inclusive concrete skatepark
+            for our Park Circle community to enjoy
+          </p>
+        </div>
         <p className="text-2xl mb-6">
           <code className={styles.code}>Site under construction...</code>
         </p>
@@ -32,6 +38,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a
             href="https://instagram.com/parkcircleskate"
+            target="_blank"
             className={styles.card}
           >
             <h2>@parkcircleskate</h2>
@@ -40,6 +47,7 @@ export default function Home() {
 
           <a
             href="https://www.facebook.com/groups/882978432691586/"
+            target="_blank"
             className={styles.card}
           >
             <h2>Park Circle Skate</h2>
