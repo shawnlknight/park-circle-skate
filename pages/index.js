@@ -39,6 +39,7 @@ export default function Home() {
           <a
             href="https://instagram.com/parkcircleskate"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h2>@parkcircleskate</h2>
@@ -48,6 +49,7 @@ export default function Home() {
           <a
             href="https://www.facebook.com/groups/882978432691586/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h2>Park Circle Skate</h2>
