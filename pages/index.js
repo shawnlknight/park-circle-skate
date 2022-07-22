@@ -25,14 +25,14 @@ export default function Home() {
             height={200}
           />
         </div>
-        <div className="w-11/12 text-center text-2xl italic mb-20 p-4 bg-gradient-to-r from-slate-50 via-slate-300">
+        <div className="w-full text-center text-2xl italic mb-20 p-12 bg-gradient-to-r from-indigo-50 via-indigo-100">
           <p>
             We are a group of people in the Park Circle area of North
             Charleston, SC who are advocating for a free to use, safe, and
             inclusive concrete skatepark for our community to enjoy.
           </p>
         </div>
-        <div className="mb-20 text-center">
+        <div className="mb-28 text-center">
           <h2 className="text-3xl mb-6">Skateparks Build Communities</h2>
           <div className={styles.videoWrapper}>
             <iframe
@@ -40,33 +40,35 @@ export default function Home() {
               height="315"
               src="https://www.youtube.com/embed/RUo8XXptXkc"
               title="YouTube video player - The Skatepark Project, Building Communities"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
-        <h2 className="text-2xl mb-6">Check us out on social media!</h2>
-        <div className={styles.grid}>
-          <a
-            href="https://instagram.com/parkcircleskate"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.card}
-          >
-            <h2>@parkcircleskate</h2>
-            <p>Follow us on Instagram!</p>
-          </a>
+        <div className="p-12 bg-slate-100 text-center">
+          <h2 className="text-3xl mb-6">Keep up with us on social media!</h2>
+          <div className={styles.grid}>
+            <a
+              href="https://instagram.com/parkcircleskate"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.card}
+            >
+              <h2>@parkcircleskate</h2>
+              <p>Follow us on Instagram!</p>
+            </a>
 
-          <a
-            href="https://www.facebook.com/groups/882978432691586/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.card}
-          >
-            <h2>Park Circle Skate</h2>
-            <p>Join our Facebook group!</p>
-          </a>
+            <a
+              href="https://www.facebook.com/groups/882978432691586/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.card}
+            >
+              <h2>Park Circle Skate</h2>
+              <p>Join our Facebook group!</p>
+            </a>
+          </div>
         </div>
       </main>
 
