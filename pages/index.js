@@ -14,7 +14,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-4xl text-center">Welcome to Park Circle Skate</h1>
+        <h1 className={`${styles.themeBlueColor} text-5xl text-center`}>
+          Welcome to Park Circle Skate
+        </h1>
         <div className="m-10">
           <Image
             src="/pc-skate-logo.png"
@@ -23,18 +25,28 @@ export default function Home() {
             height={200}
           />
         </div>
-        <div className="w-96 text-center text-2xl italic mb-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded p-4">
+        <div className="w-11/12 text-center text-2xl italic mb-20 p-4 bg-gradient-to-r from-slate-50 via-slate-300">
           <p>
-            Advocating for a free to use, safe, and inclusive concrete skatepark
-            for our Park Circle community to enjoy
+            We are a group of people in the Park Circle area of North
+            Charleston, SC who are advocating for a free to use, safe, and
+            inclusive concrete skatepark for our community to enjoy.
           </p>
         </div>
-        <p className="text-2xl mb-6">
-          <code className={styles.code}>Site under construction...</code>
-        </p>
-        <p className="text-2xl mb-6">
-          Meanwhile, you can check us out on social media!
-        </p>
+        <div className="mb-20 text-center">
+          <h2 className="text-3xl mb-6">Skateparks Build Communities</h2>
+          <div className={styles.videoWrapper}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/RUo8XXptXkc"
+              title="YouTube video player - The Skatepark Project, Building Communities"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <h2 className="text-2xl mb-6">Check us out on social media!</h2>
         <div className={styles.grid}>
           <a
             href="https://instagram.com/parkcircleskate"

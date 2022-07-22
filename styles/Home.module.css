@@ -110,9 +110,26 @@ color: #fedea3; */
   line-height: 1.5;
 }
 
+.themeBlueColor {
+  color: #102538;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
