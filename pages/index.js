@@ -25,12 +25,14 @@ export default function Home() {
             height={200}
           />
         </div>
-        <div className="w-full text-center text-2xl italic mb-20 p-12 bg-gradient-to-r from-indigo-50 via-indigo-100">
-          <p>
-            We are a group of people in the Park Circle area of North
-            Charleston, SC who are advocating for a free to use, safe, and
-            inclusive concrete skatepark for our community to enjoy.
-          </p>
+        <div className="w-screen flex justify-center text-center text-2xl italic mb-20 p-12 bg-gradient-to-r from-cyan-400 to-indigo-400">
+          <div className="max-w-xl">
+            <p>
+              We are a group of people in the Park Circle area of North
+              Charleston, SC who are advocating for a free to use, safe, and
+              inclusive concrete skatepark for our community to enjoy.
+            </p>
+          </div>
         </div>
 
         <div className="mb-28 text-center max-w-xl px-6 flex flex-col gap-8">
@@ -52,7 +54,7 @@ export default function Home() {
               <span>
                 - Peter Whitley,{' '}
                 <a
-                  className="text-sky-600 hover:text-sky-700"
+                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                   href="https://publicskateparkguide.org"
                   target="_blank"
                   rel="noreferrer"
@@ -72,7 +74,7 @@ export default function Home() {
               physical exercise and outdoor activity earn them? In many areas it
               gets them a big fine.&quot; (
               <a
-                className="text-sky-600 hover:text-sky-700"
+                className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                 target="_blank"
                 rel="noreferrer"
@@ -94,7 +96,7 @@ export default function Home() {
                 users, like BMX riders, roller/quad skaters, inline skaters,
                 scooter riders, and more. (
                 <a
-                  className="text-sky-600 hover:text-sky-700"
+                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                   href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
                   target="_blank"
                   rel="noreferrer"
@@ -106,7 +108,7 @@ export default function Home() {
               <p className="mb-6">
                 Most of the these skateboarders are 24 years old or younger. (
                 <a
-                  className="text-sky-600 hover:text-sky-700"
+                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                   href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                   target="_blank"
                   rel="noreferrer"
@@ -119,7 +121,7 @@ export default function Home() {
                 Skateboarding is the third most commonly reported interest for
                 high school students (24% of girls, and 17% of boys). (
                 <a
-                  className="text-sky-600 hover:text-sky-700"
+                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                   href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
                   target="_blank"
                   rel="noreferrer"
@@ -134,7 +136,7 @@ export default function Home() {
                 sports fields, play areas, fitness zones, and dog parks when
                 comparing the total weekly use hours. (
                 <a
-                  className="text-sky-600 hover:text-sky-700"
+                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
                   target="_blank"
                   rel="noreferrer"
@@ -187,7 +189,11 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>© {copywriteDate}</footer>
+      <footer
+        className={`${styles.footer} bg-gradient-to-r from-cyan-400 to-indigo-400 mt-20`}
+      >
+        © {copywriteDate}
+      </footer>
     </div>
   )
 }
