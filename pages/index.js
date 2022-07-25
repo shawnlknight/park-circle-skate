@@ -68,64 +68,66 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-28 text-center max-w-xl px-6 flex flex-col gap-8">
-          <h2 className="text-3xl mb-2">Why a Skatepark?</h2>
-          <div className="text-left text-lg">
-            <p className="mb-4">
-              There are 8.8 million skateboarders in the U.S. Up 34% from 2019,
-              and this does not account for the many other skatepark users, like
-              BMX riders, roller/quad skaters, inline skaters, scooter riders,
-              and more. (
-              <a
-                className="text-sky-600 hover:text-sky-700"
-                href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Skateboarding Participation Report, 2021
-              </a>
-              )
-            </p>
-            <p className="mb-4">
-              Most of the these skateboarders are 24 years old or younger. (
-              <a
-                className="text-sky-600 hover:text-sky-700"
-                href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Public Skatepark Guide - The Skateboarding Problem
-              </a>
-              )
-            </p>
-            <p className="mb-4">
-              Skateboarding is the third most commonly reported interest for
-              high school students (24% of girls, and 17% of boys). (
-              <a
-                className="text-sky-600 hover:text-sky-700"
-                href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Aspen Institute National Student Survey Analysis, 2021
-              </a>
-              )
-            </p>
-            <p className="mb-4">
-              Skateparks are the fourth most used recreation space in terms of
-              total weekly use hours. They were found to be more popular than
-              sports fields, play areas, fitness zones, and dog parks when
-              comparing the total weekly use hours. (
-              <a
-                className="text-sky-600 hover:text-sky-700"
-                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                The First National Study of Neighborhood Parks, 2016
-              </a>
-              )
-            </p>
+        <div className="w-screen flex justify-center bg-slate-100 mb-28">
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+            <h2 className="text-3xl mb-2 pt-6">Why a Skatepark?</h2>
+            <div className="text-left text-lg">
+              <p className="mb-6">
+                There are 8.8 million skateboarders in the U.S. Up 34% from
+                2019, and this does not account for the many other skatepark
+                users, like BMX riders, roller/quad skaters, inline skaters,
+                scooter riders, and more. (
+                <a
+                  className="text-sky-600 hover:text-sky-700"
+                  href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Skateboarding Participation Report, 2021
+                </a>
+                )
+              </p>
+              <p className="mb-6">
+                Most of the these skateboarders are 24 years old or younger. (
+                <a
+                  className="text-sky-600 hover:text-sky-700"
+                  href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Public Skatepark Guide - The Skateboarding Problem
+                </a>
+                )
+              </p>
+              <p className="mb-6">
+                Skateboarding is the third most commonly reported interest for
+                high school students (24% of girls, and 17% of boys). (
+                <a
+                  className="text-sky-600 hover:text-sky-700"
+                  href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Aspen Institute National Student Survey Analysis, 2021
+                </a>
+                )
+              </p>
+              <p className="mb-6">
+                Skateparks are the fourth most used recreation space in terms of
+                total weekly use hours. They were found to be more popular than
+                sports fields, play areas, fitness zones, and dog parks when
+                comparing the total weekly use hours. (
+                <a
+                  className="text-sky-600 hover:text-sky-700"
+                  href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  The First National Study of Neighborhood Parks, 2016
+                </a>
+                )
+              </p>
+            </div>
           </div>
         </div>
 
