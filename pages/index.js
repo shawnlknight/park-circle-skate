@@ -36,7 +36,7 @@ export default function Home() {
         <div className="mb-28 text-center max-w-xl px-6 flex flex-col gap-8">
           <h2 className="text-3xl mb-2">The Problem</h2>
           <div className="text-left">
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-6">
               The City of North Charleston has provided Park Circle residents
               with a variety of recreational spaces with many being renovated to
               offer the best facilities to the deserving community. However, one
@@ -44,17 +44,33 @@ export default function Home() {
               form has been overlooked by city planning, and that is
               skateboarding.
             </p>
-            <p className="italic text-sm">
-              &quot;It is surprising to learn that many cities and towns in the
-              United States don&apos;t have a single skatepark. It&apos;s easy
-              to find a basketball hoop or a baseball diamond almost anywhere
-              you go. Yet when it comes to skateboarding, skaters have little
-              choice but to ride on the sidewalks, on the streets, school
-              campuses, parking lots, and other places around town... or simply
-              don&apos;t skate at all. They show an uncommon dedication to their
-              sport. And what does this commitment to physical exercise and
-              outdoor activity earn them? In many areas it gets them a big
-              fine.&quot; (
+            <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-6`}>
+              <p className="p-4 italic">
+                Every skatepark supports hundreds of kids that might otherwise
+                have nowhere to go.
+              </p>
+              <span>
+                - Peter Whitley,{' '}
+                <a
+                  className="text-sky-600 hover:text-sky-700"
+                  href="https://publicskateparkguide.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Public Skatepark Guide
+                </a>
+              </span>
+            </blockquote>
+            <p className="text-lg mb-6">
+              You can easily find baseball fields or basketball hoops in most
+              U.S. cities and towns but many of these same places do not offer
+              anywhere for skaters to legally skate, much less a skatepark.
+              Skaters in these areas are forced to ride in dangerous roadways,
+              sidewalks, and parking lots where they will more than likely be
+              kicked out by local authorities. &quot;[Skaters] show an uncommon
+              dedication to their sport. And what does this commitment to
+              physical exercise and outdoor activity earn them? In many areas it
+              gets them a big fine.&quot; (
               <a
                 className="text-sky-600 hover:text-sky-700"
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
