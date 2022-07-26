@@ -17,6 +17,7 @@ export default function Home() {
         <h1 className={`${styles.themeBlueColor} text-5xl text-center`}>
           Welcome to Park Circle Skate
         </h1>
+
         <div className="m-10">
           <Image
             src="/pc-skate-logo.png"
@@ -25,7 +26,9 @@ export default function Home() {
             height={200}
           />
         </div>
-        <div className="w-screen flex justify-center text-center text-2xl italic mb-20 p-12 bg-gradient-to-r from-cyan-400 to-indigo-400">
+        <div
+          className={`${styles.themeYelloBg} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
+        >
           <div className="max-w-xl">
             <p>
               We are a group of people in the Park Circle area of North
@@ -36,17 +39,17 @@ export default function Home() {
         </div>
 
         <div className="mb-28 text-center max-w-xl px-6 flex flex-col gap-8">
-          <h2 className="text-3xl mb-2">The Problem</h2>
+          <h2 className="text-3xl mb-2 themeYelloUnderline">The Problem</h2>
           <div className="text-left">
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-8">
               The City of North Charleston has provided Park Circle residents
               with a variety of recreational spaces with many being renovated to
               offer the best facilities to the deserving community. However, one
-              important activity that is considered an athletic sport and an art
-              form has been overlooked by city planning, and that is
+              important activity that is an athletic sport, art form, and
+              lifestyle has been overlooked by city planning, and that is
               skateboarding.
             </p>
-            <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-6`}>
+            <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
               <p className="p-4 italic">
                 Every skatepark supports hundreds of kids that might otherwise
                 have nowhere to go.
@@ -54,7 +57,7 @@ export default function Home() {
               <span>
                 - Peter Whitley,{' '}
                 <a
-                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                   href="https://publicskateparkguide.org"
                   target="_blank"
                   rel="noreferrer"
@@ -63,18 +66,18 @@ export default function Home() {
                 </a>
               </span>
             </blockquote>
-            <p className="text-lg mb-6">
-              You can easily find baseball fields or basketball hoops in most
-              U.S. cities and towns but many of these same places do not offer
-              anywhere for skaters to legally skate, much less a skatepark.
-              Skaters in these areas are forced to ride in dangerous roadways,
-              sidewalks, and parking lots where they will more than likely be
-              kicked out by local authorities. &quot;[Skaters] show an uncommon
-              dedication to their sport. And what does this commitment to
-              physical exercise and outdoor activity earn them? In many areas it
-              gets them a big fine.&quot; (
+            <p className="text-lg mb-8">
+              You can easily find baseball fields, basketball hoops, and tennis
+              courts in most U.S. cities and towns but many of these same places
+              do not offer anywhere for skaters to legally skate, much less a
+              skatepark. Skaters in these areas are forced to ride in dangerous
+              roadways, sidewalks, or parking lots where they will more than
+              likely be kicked out by local authorities. &quot;[Skaters] show an
+              uncommon dedication to their sport. And what does this commitment
+              to physical exercise and outdoor activity earn them? In many areas
+              it gets them a big fine.&quot; (
               <a
-                className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                 target="_blank"
                 rel="noreferrer"
@@ -96,7 +99,7 @@ export default function Home() {
                 users, like BMX riders, roller/quad skaters, inline skaters,
                 scooter riders, and more. (
                 <a
-                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                   href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
                   target="_blank"
                   rel="noreferrer"
@@ -108,7 +111,7 @@ export default function Home() {
               <p className="mb-6">
                 Most of the these skateboarders are 24 years old or younger. (
                 <a
-                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                   href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                   target="_blank"
                   rel="noreferrer"
@@ -121,7 +124,7 @@ export default function Home() {
                 Skateboarding is the third most commonly reported interest for
                 high school students (24% of girls, and 17% of boys). (
                 <a
-                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                   href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
                   target="_blank"
                   rel="noreferrer"
@@ -136,7 +139,7 @@ export default function Home() {
                 sports fields, play areas, fitness zones, and dog parks when
                 comparing the total weekly use hours. (
                 <a
-                  className="text-sky-500 hover:text-sky-800 underline decoration-sky-500"
+                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
                   target="_blank"
                   rel="noreferrer"
