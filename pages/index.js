@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+import Link from '../components/Link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -32,14 +34,14 @@ export default function Home() {
           <div className="max-w-xl">
             <p>
               We are a group of people in the Park Circle area of North
-              Charleston, SC who are advocating for a free to use, safe, and
+              Charleston, SC who are advocating for a free-to-use, safe, and
               inclusive concrete skatepark for our community to enjoy.
             </p>
           </div>
         </div>
 
-        <div className="mb-28 text-center max-w-xl px-6 flex flex-col gap-8">
-          <h2 className="text-3xl mb-2 themeYelloUnderline">The Problem</h2>
+        <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
+          <h2 className="text-3xl mb-2">The Problem</h2>
           <div className="text-left">
             <p className="text-lg mb-8">
               The City of North Charleston has provided Park Circle residents
@@ -56,17 +58,13 @@ export default function Home() {
               </p>
               <span>
                 - Peter Whitley,{' '}
-                <a
-                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+                <Link
                   href="https://publicskateparkguide.org"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Public Skatepark Guide
-                </a>
+                  displayText="Public Skatepark Guide"
+                />
               </span>
             </blockquote>
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-6">
               You can easily find baseball fields, basketball hoops, and tennis
               courts in most U.S. cities and towns but many of these same places
               do not offer anywhere for skaters to legally skate, much less a
@@ -76,20 +74,16 @@ export default function Home() {
               uncommon dedication to their sport. And what does this commitment
               to physical exercise and outdoor activity earn them? In many areas
               it gets them a big fine.&quot; (
-              <a
-                className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+              <Link
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Public Skatepark Guide - The Skateboarding Problem
-              </a>
+                displayText="Public Skatepark Guide - The Skateboarding Problem"
+              />
               )
             </p>
           </div>
         </div>
 
-        <div className="w-screen flex justify-center bg-slate-100 mb-28">
+        <div className="w-screen flex justify-center bg-slate-100 py-14">
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h2 className="text-3xl mb-2 pt-6">Why a Skatepark?</h2>
             <div className="text-left text-lg">
@@ -98,39 +92,27 @@ export default function Home() {
                 2019, and this does not account for the many other skatepark
                 users, like BMX riders, roller/quad skaters, inline skaters,
                 scooter riders, and more. (
-                <a
-                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+                <Link
                   href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Skateboarding Participation Report, 2021
-                </a>
+                  displayText="Skateboarding Participation Report, 2021"
+                />
                 )
               </p>
               <p className="mb-6">
                 Most of the these skateboarders are 24 years old or younger. (
-                <a
-                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+                <Link
                   href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Public Skatepark Guide - The Skateboarding Problem
-                </a>
+                  displayText="Public Skatepark Guide - The Skateboarding Problem"
+                />
                 )
               </p>
               <p className="mb-6">
                 Skateboarding is the third most commonly reported interest for
                 high school students (24% of girls, and 17% of boys). (
-                <a
-                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+                <Link
                   href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Aspen Institute National Student Survey Analysis, 2021
-                </a>
+                  displayText="Aspen Institute National Student Survey Analysis, 2021"
+                />
                 )
               </p>
               <p className="mb-6">
@@ -138,15 +120,70 @@ export default function Home() {
                 total weekly use hours. They were found to be more popular than
                 sports fields, play areas, fitness zones, and dog parks when
                 comparing the total weekly use hours. (
-                <a
-                  className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+                <Link
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  The First National Study of Neighborhood Parks, 2016
-                </a>
+                  displayText="The First National Study of Neighborhood Parks, 2016"
+                />
                 )
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className={`${styles.themeYelloBg} w-screen flex justify-center py-14 mb-28`}
+        >
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+            <h2 className="text-3xl mb-2 pt-6">Benefits</h2>
+            <div className="text-left text-lg">
+              <p className="mb-6">
+                A local skatepark provides a safe place for people to practice
+                their sport and challenge themselves in a healthy way. Skaters
+                encourage each other to push beyond what they think is possible.
+                A skater can spend hours/days/weeks trying a new trick and
+                perfecting it. This persistance teaches them valuable lessons
+                that transfer over to other aspects of life.
+              </p>
+              <blockquote className={`${styles.blockquoteAlternate} p-4 mb-8`}>
+                <p className="p-4 italic">
+                  One of the great activities is skateboarding. To learn to do a
+                  skateboard trick - how many times you&apos;ve got to get
+                  something wrong before you get it right... you learn to do
+                  that trick, now you&apos;ve got a life lesson. Whenever I see
+                  those skateboard kids, I think, &apos;those skateboard kids
+                  will be alright.&apos;
+                </p>
+                <span>- Jerry Seinfeld, Comedian and Social Observer</span>
+              </blockquote>
+              <p className="mb-6">
+                Skateboarding is an excellent form of exercise and gets people
+                outdoors. Both youth and adults get their CDC recommended daily
+                cardiovascular exercise while skateboarding at skateparks. (
+                <Link
+                  href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7241629/"
+                  displayText="CSUSM Studies in the International Journal of Exercise Science, 2020"
+                />
+                )
+              </p>
+              <p className="mb-6">
+                Along with the benefits to physical health, a recent study of
+                skateboarding culture reveals that skateboarding improves mental
+                health, fosters community, and encourages diversity and
+                resilience. (
+                <Link
+                  href="https://www.google.com/url?q=https://pullias.usc.edu/blog/groundbreaking-study-redefines-skateboarding-culture/&sa=D&source=docs&ust=1659031588220165&usg=AOvVaw39D_tAen3WK8V3Ss-G4QMi"
+                  displayText="Pullias Center for Higher Education"
+                />
+                )
+              </p>
+              <p className="mb-6">
+                In addition to a sport, skateboarding is also considered to be a
+                lifestyle and an art form. It can provide a sense of
+                individuality and a means for artistic expression for our youth.
+                Few sports give the individual participant complete creative
+                control, and it is through the process of self-discovery and
+                testing one&apos;s limits that a skater can develop his or her
+                own style.
               </p>
             </div>
           </div>
@@ -166,6 +203,7 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
+
         <div className="p-12 bg-slate-100 text-center">
           <h2 className="text-3xl mb-6">Keep up with us on social media!</h2>
           <div className={styles.grid}>

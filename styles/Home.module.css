@@ -139,6 +139,21 @@
   top: -10px;
 }
 
+.blockquoteAlternate {
+  border-left: 8px solid #102538;
+  position: relative;
+}
+
+.blockquoteAlternate::before {
+  font-family: Arial;
+  content: '\201C';
+  color: #102538;
+  font-size: 4em;
+  position: absolute;
+  left: 5px;
+  top: 30px;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
