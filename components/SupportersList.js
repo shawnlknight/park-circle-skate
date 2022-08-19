@@ -78,6 +78,12 @@ export default function SupportersList() {
             />
           </li>
           <li>
+            <Link
+              href="https://graycatmusic.com/"
+              displayText="Gray Cat Music"
+            />
+          </li>
+          <li>
             <Link href="https://www.teamphun.com/" displayText="Team Phun" />
           </li>
           <li>
@@ -148,6 +154,12 @@ export default function SupportersList() {
             <Link
               href="https://www.choicesgourmetmarketdeli.com/"
               displayText="Choice's Gourmet Market &#38; Deli"
+            />
+          </li>
+          <li>
+            <Link
+              href="https://www.abundantseafood.co/"
+              displayText="Abundant Seafood"
             />
           </li>
           <li>
