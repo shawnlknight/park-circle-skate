@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Link from '../components/Link'
+import SupportersList from '../components/SupportersList'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
           />
         </div>
         <div
-          className={`${styles.themeYelloBg} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
+          className={`${styles.themeYellowBg} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
         >
           <div className="max-w-xl">
             <p>
@@ -131,7 +132,7 @@ export default function Home() {
         </div>
 
         <div
-          className={`${styles.themeYelloBg} w-screen flex justify-center py-14 mb-28`}
+          className={`${styles.themeYellowBg} w-screen flex justify-center py-14 mb-28`}
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h2 className="text-3xl mb-2 pt-6">Benefits</h2>
@@ -201,6 +202,22 @@ export default function Home() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
+          </div>
+        </div>
+
+        <div className={`w-screen flex justify-center py-14 mb-28`}>
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+            <h2 className="text-3xl mb-2 pt-6">
+              Supporting Community Partners
+            </h2>
+            <div className="text-left text-lg">
+              <p className="mb-6">
+                Our Supporting Community Partners are local businesses who have
+                expressed their support for a skatepark in Park Circle and are
+                also advocating for this community improvement.
+              </p>
+              <SupportersList />
+            </div>
           </div>
         </div>
 
