@@ -6,12 +6,16 @@
   color: #102538;
 }
 
-.themeYelloColor {
+.themeYellowColor {
   color: #fedea3;
 }
 
-.themeYelloBg {
+.themeYellowBg {
   background: #fedea3;
+}
+
+.themeDarkBlueBg {
+  background: #102538;
 }
 
 .themeYelloUnderline {
