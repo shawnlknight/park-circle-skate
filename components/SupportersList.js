@@ -180,6 +180,24 @@ export default function SupportersList() {
               displayText="Parrot Surf &#38; Skate Shop"
             />
           </li>
+          <li>
+            <Link
+              href="https://www.windandwavesbrewing.com/"
+              displayText="Wind &#38; Waves Brewing"
+            />
+          </li>
+          <li>
+            <Link
+              href="https://www.parkcircleconeyisland.com/"
+              displayText="Coney Island Park Circle"
+            />
+          </li>
+          <li>
+            <Link
+              href="https://www.facebook.com/BarrelHouseSpiritsCHS/"
+              displayText="Barrel House Spirits"
+            />
+          </li>
         </ul>
       </div>
     </div>

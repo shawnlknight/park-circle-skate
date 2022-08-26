@@ -42,15 +42,14 @@ export default function Home() {
         </div>
 
         <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
-          <h2 className="text-3xl mb-2">The Problem</h2>
+          <h2 className="text-3xl mb-2">Why a Skatepark?</h2>
           <div className="text-left">
             <p className="text-lg mb-8">
-              The City of North Charleston has provided Park Circle residents
-              with a variety of recreational spaces with many being renovated to
-              offer the best facilities to the deserving community. However, one
-              important activity that is an athletic sport, art form, and
-              lifestyle has been overlooked by city planning, and that is
-              skateboarding.
+              Park Circle residents have access to a variety of recreational
+              spaces with many being renovated to offer the best facilities to
+              the deserving community. However, one important activity that is
+              an athletic sport, art form, and lifestyle has been overlooked by
+              city planning, and that is skateboarding.
             </p>
             <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
               <p className="p-4 italic">
@@ -84,9 +83,24 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="mb-28 text-center">
+          <h3 className="text-3xl mb-6">Skateparks Build Communities</h3>
+          <div className={styles.videoWrapper}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/RUo8XXptXkc"
+              title="YouTube video player - The Skatepark Project, Building Communities"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
         <div className="w-screen flex justify-center bg-slate-100 py-14">
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className="text-3xl mb-2 pt-6">Why a Skatepark?</h2>
+            <h2 className="text-3xl mb-2 pt-6">Skateboarding&apos;s Appeal</h2>
             <div className="text-left text-lg">
               <p className="mb-6">
                 There are 8.8 million skateboarders in the U.S. Up 34% from
@@ -190,26 +204,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-28 text-center">
-          <h2 className="text-3xl mb-6">Skateparks Build Communities</h2>
-          <div className={styles.videoWrapper}>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/RUo8XXptXkc"
-              title="YouTube video player - The Skatepark Project, Building Communities"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-
-        <div className={`w-screen flex justify-center py-14 mb-28`}>
+        <div className={`w-screen flex justify-center mb-28`}>
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className="text-3xl mb-2 pt-6">
-              Supporting Community Partners
-            </h2>
+            <h2 className="text-3xl mb-2">Supporting Community Partners</h2>
             <div className="text-left text-lg">
               <p className="mb-6">
                 Our Supporting Community Partners are local businesses who have
@@ -247,11 +244,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer
-        className={`${styles.footer} bg-gradient-to-r from-cyan-400 to-indigo-400 mt-20`}
-      >
-        © {copywriteDate}
-      </footer>
+      <footer className={`${styles.footer} mt-20`}>© {copywriteDate}</footer>
     </div>
   )
 }
