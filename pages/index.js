@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="m-10">
           <Image
-            src="/pc-skate-logo.png"
+            src="/pc-skate-logo-main-v2.png"
             alt="Park Circle Skate wheel Logo"
             width={200}
             height={200}
