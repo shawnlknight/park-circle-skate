@@ -34,9 +34,10 @@ export default function Home() {
         >
           <div className="max-w-xl">
             <p>
-              We are a group of people in the Park Circle area of North
-              Charleston, SC who are advocating for a free-to-use, safe, and
-              inclusive concrete skatepark for our community to enjoy.
+              Park Circle Skate is a group of community members and businesses
+              in the Park Circle area of North Charleston who are advocating for
+              a free-to-use, safe, and inclusive concrete skatepark for our
+              community.
             </p>
           </div>
         </div>
