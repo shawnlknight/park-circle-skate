@@ -1,4 +1,4 @@
-import Link from './Link'
+import ExternalLink from './Link'
 import { partnersListOne, partnersListTwo } from '../data/partners'
 
 export default function SupportersList() {
@@ -8,7 +8,7 @@ export default function SupportersList() {
         <ul className="list-disc">
           {partnersListOne.map((partner, i) => (
             <li key={i}>
-              <Link href={partner.url} displayText={partner.name} />
+              <ExternalLink href={partner.url} displayText={partner.name} />
             </li>
           ))}
         </ul>
@@ -17,7 +17,7 @@ export default function SupportersList() {
         <ul className="list-disc">
           {partnersListTwo.map((partner, i) => (
             <li key={i}>
-              <Link href={partner.url} displayText={partner.name} />
+              <ExternalLink href={partner.url} displayText={partner.name} />
             </li>
           ))}
         </ul>

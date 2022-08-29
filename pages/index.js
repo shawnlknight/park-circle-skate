@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Link from '../components/Link'
+import ExternalLink from '../components/Link'
 import SupportersList from '../components/SupportersList'
 import styles from '../styles/Home.module.css'
 
@@ -34,9 +34,10 @@ export default function Home() {
         >
           <div className="max-w-xl">
             <p>
-              We are a group of people in the Park Circle area of North
-              Charleston, SC who are advocating for a free-to-use, safe, and
-              inclusive concrete skatepark for our community to enjoy.
+              Park Circle Skate is a group of community members and businesses
+              in the Park Circle area of North Charleston who are advocating for
+              a free-to-use, safe, and inclusive concrete skatepark for our
+              community.
             </p>
           </div>
         </div>
@@ -58,7 +59,7 @@ export default function Home() {
               </p>
               <span>
                 - Peter Whitley,{' '}
-                <Link
+                <ExternalLink
                   href="https://publicskateparkguide.org"
                   displayText="Public Skatepark Guide"
                 />
@@ -74,7 +75,7 @@ export default function Home() {
               uncommon dedication to their sport. And what does this commitment
               to physical exercise and outdoor activity earn them? In many areas
               it gets them a big fine.&quot; (
-              <Link
+              <ExternalLink
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                 displayText="Public Skatepark Guide - The Skateboarding Problem"
               />
@@ -107,7 +108,7 @@ export default function Home() {
                 2019, and this does not account for the many other skatepark
                 users, like BMX riders, roller/quad skaters, inline skaters,
                 scooter riders, and more. (
-                <Link
+                <ExternalLink
                   href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
                   displayText="Skateboarding Participation Report, 2021"
                 />
@@ -115,7 +116,7 @@ export default function Home() {
               </p>
               <p className="mb-6">
                 Most of the these skateboarders are 24 years old or younger. (
-                <Link
+                <ExternalLink
                   href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                   displayText="Public Skatepark Guide - The Skateboarding Problem"
                 />
@@ -124,7 +125,7 @@ export default function Home() {
               <p className="mb-6">
                 Skateboarding is the third most commonly reported interest for
                 high school students (24% of girls, and 17% of boys). (
-                <Link
+                <ExternalLink
                   href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
                   displayText="Aspen Institute National Student Survey Analysis, 2021"
                 />
@@ -135,7 +136,7 @@ export default function Home() {
                 total weekly use hours. They were found to be more popular than
                 sports fields, play areas, fitness zones, and dog parks when
                 comparing the total weekly use hours. (
-                <Link
+                <ExternalLink
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
                   displayText="The First National Study of Neighborhood Parks, 2016"
                 />
@@ -174,7 +175,7 @@ export default function Home() {
                 Skateboarding is an excellent form of exercise and gets people
                 outdoors. Both youth and adults get their CDC recommended daily
                 cardiovascular exercise while skateboarding at skateparks. (
-                <Link
+                <ExternalLink
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7241629/"
                   displayText="CSUSM Studies in the International Journal of Exercise Science, 2020"
                 />
@@ -185,7 +186,7 @@ export default function Home() {
                 skateboarding culture reveals that skateboarding improves mental
                 health, fosters community, and encourages diversity and
                 resilience. (
-                <Link
+                <ExternalLink
                   href="https://www.google.com/url?q=https://pullias.usc.edu/blog/groundbreaking-study-redefines-skateboarding-culture/&sa=D&source=docs&ust=1659031588220165&usg=AOvVaw39D_tAen3WK8V3Ss-G4QMi"
                   displayText="Pullias Center for Higher Education"
                 />
@@ -219,7 +220,7 @@ export default function Home() {
         </div>
 
         <div className="p-12 bg-slate-100 text-center">
-          <h2 className="text-3xl mb-6">Keep up with us on social media!</h2>
+          <h2 className="text-3xl mb-6">Keep up with us!</h2>
           <div className={styles.grid}>
             <a
               href="https://instagram.com/parkcircleskate"
@@ -239,6 +240,10 @@ export default function Home() {
             >
               <h2>Park Circle Skate</h2>
               <p>Join our Facebook group!</p>
+            </a>
+            <a href="mailto:parkcircleskate@gmail.com" className={styles.card}>
+              <h2>parkcircleskate@gmail.com</h2>
+              <p>Email us!</p>
             </a>
           </div>
         </div>
