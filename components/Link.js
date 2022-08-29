@@ -1,4 +1,4 @@
-export default function Link(props) {
+export default function ExternalLink(props) {
   const { href, displayText } = props
 
   return (

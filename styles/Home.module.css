@@ -105,7 +105,7 @@
   background: #102538;
   color: #fedea3;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .card:hover,
