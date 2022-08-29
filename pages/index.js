@@ -229,7 +229,7 @@ export default function Home() {
               className={styles.card}
             >
               <h3>Follow us on Instagram!</h3>
-              <p>@parkcircleskate</p>
+              <p className="text-sm">@parkcircleskate</p>
             </a>
 
             <a
@@ -239,11 +239,11 @@ export default function Home() {
               className={styles.card}
             >
               <h3>Join our Facebook group!</h3>
-              <p>Park Circle Skate</p>
+              <p className="text-sm">Park Circle Skate</p>
             </a>
             <a href="mailto:parkcircleskate@gmail.com" className={styles.card}>
               <h3>Email us!</h3>
-              <p>parkcircleskate@gmail.com</p>
+              <p className="text-sm">parkcircleskate@gmail.com</p>
             </a>
           </div>
         </div>
