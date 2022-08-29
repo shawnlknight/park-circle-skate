@@ -228,8 +228,8 @@ export default function Home() {
               rel="noreferrer"
               className={styles.card}
             >
-              <h2>@parkcircleskate</h2>
-              <p>Follow us on Instagram!</p>
+              <h3>Follow us on Instagram!</h3>
+              <p>@parkcircleskate</p>
             </a>
 
             <a
@@ -238,12 +238,12 @@ export default function Home() {
               rel="noreferrer"
               className={styles.card}
             >
-              <h2>Park Circle Skate</h2>
-              <p>Join our Facebook group!</p>
+              <h3>Join our Facebook group!</h3>
+              <p>Park Circle Skate</p>
             </a>
             <a href="mailto:parkcircleskate@gmail.com" className={styles.card}>
-              <h2>parkcircleskate@gmail.com</h2>
-              <p>Email us!</p>
+              <h3>Email us!</h3>
+              <p>parkcircleskate@gmail.com</p>
             </a>
           </div>
         </div>
