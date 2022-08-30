@@ -23,6 +23,11 @@
   text-decoration-color: #fedea3;
 }
 
+.banner {
+  background: #102538;
+  color: #fedea3;
+}
+
 .main {
   min-height: 100vh;
   padding-top: 4rem;

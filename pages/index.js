@@ -30,14 +30,14 @@ export default function Home() {
           />
         </div>
         <div
-          className={`${styles.themeYellowBg} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
+          className={`${styles.banner} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
         >
-          <div className="max-w-xl">
+          <div className="max-w-lg">
             <p>
               Park Circle Skate is a group of community members and businesses
               in the Park Circle area of North Charleston who are advocating for
               a free-to-use, safe, and inclusive concrete skatepark for our
-              community.
+              community to enjoy.
             </p>
           </div>
         </div>
