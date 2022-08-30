@@ -43,15 +43,15 @@ export default function Home() {
         </div>
 
         <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
-          {/* <div>
+          <div>
             <Image
-              src="/skatepark-image-2.svg"
+              src="/skater-one.png"
               alt="Skateboarder at skatepark"
               priority
               width={950}
               height={950}
             />
-          </div> */}
+          </div>
           <h2 className="text-3xl mb-2 pt-0">Why a Skatepark?</h2>
           <div className="text-left">
             <p className="text-lg mb-8">
@@ -123,14 +123,14 @@ export default function Home() {
                 />
                 )
               </p>
-              {/* <div>
+              <div className="mb-4">
                 <Image
-                  src="/skatepark-image-1.svg"
+                  src="/skater-two.png"
                   alt="Two skateboarders at a skatepark"
                   width={950}
                   height={950}
                 />
-              </div> */}
+              </div>
               <p className="mb-6">
                 Most of the these skateboarders are 24 years old or younger. (
                 <ExternalLink
@@ -209,14 +209,14 @@ export default function Home() {
                 />
                 )
               </p>
-              {/* <div>
+              <div className="mb-4">
                 <Image
-                  src="/art-form.svg"
+                  src="/art-form.png"
                   alt="skateboarder"
                   width={950}
                   height={950}
                 />
-              </div> */}
+              </div>
               <p className="mb-6">
                 In addition to a sport, skateboarding is also considered to be a
                 lifestyle and an art form. It can provide a sense of
