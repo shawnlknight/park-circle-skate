@@ -60,6 +60,10 @@ export const partnersListOne = [
     url: 'https://graycatmusic.com/',
   },
   {
+    name: 'Halcyon Barber',
+    url: 'https://www.vagaro.com/halcyonbarber',
+  },
+  {
     name: 'Holy City Brewing',
     url: 'https://holycitybrewing.com/',
   },
@@ -95,6 +99,10 @@ export const partnersListTwo = [
     url: 'https://www.parkcirclecreamery.com/',
   },
   {
+    name: 'Park Pets',
+    url: 'https://www.parkpetsparkcircle.com/',
+  },
+  {
     name: 'Park Pizza',
     url: 'https://parkpizzaparkcircle.com/',
   },
@@ -121,6 +129,10 @@ export const partnersListTwo = [
   {
     name: 'The Junction Kitchen & Provisions',
     url: 'https://thejunctionkitchen.com/',
+  },
+  {
+    name: 'The Nichols Team, Realtor®',
+    url: 'https://nicholsteam.carolinaonerealestate.com/Team/Detail/nicholsteam',
   },
   {
     name: 'The Sparrow',
