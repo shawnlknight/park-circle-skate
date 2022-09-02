@@ -58,8 +58,8 @@ export default function Home() {
               Park Circle residents have access to a variety of recreational
               spaces with many being renovated to offer the best facilities to
               the deserving community. However, one important activity that is
-              an athletic sport, art form, and lifestyle has been overlooked by
-              city planning, and that is skateboarding.
+              an athletic sport, art form, and lifestyle has been overlooked,
+              and that is skateboarding.
             </p>
             <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
               <p className="p-4 italic">
