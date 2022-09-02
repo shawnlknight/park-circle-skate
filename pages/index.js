@@ -32,7 +32,7 @@ export default function Home() {
         <div
           className={`${styles.banner} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
         >
-          <div className="max-w-lg">
+          <div className={`${styles.robotoFontFamily} max-w-lg`}>
             <p>
               Park Circle Skate is a group of community members and businesses
               in the Park Circle area of North Charleston who are advocating for
@@ -52,9 +52,11 @@ export default function Home() {
               height={950}
             />
           </div>
-          <h2 className="text-3xl mb-2 pt-0">Why a Skatepark?</h2>
+          <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            Why a Skatepark?
+          </h2>
           <div className="text-left">
-            <p className="text-lg mb-8">
+            <p className="text-xl mb-8">
               Park Circle residents have access to a variety of recreational
               spaces with many being renovated to offer the best facilities to
               the deserving community. However, one important activity that is
@@ -62,7 +64,7 @@ export default function Home() {
               and that is skateboarding.
             </p>
             <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
-              <p className="p-4 italic">
+              <p className="p-4 text-xl italic">
                 Every skatepark supports hundreds of kids that might otherwise
                 have nowhere to go.
               </p>
@@ -74,7 +76,7 @@ export default function Home() {
                 />
               </span>
             </blockquote>
-            <p className="text-lg mb-6">
+            <p className="text-xl mb-6">
               You can easily find baseball fields, basketball hoops, and tennis
               courts in most U.S. cities and towns but many of these same places
               do not offer anywhere for skaters to legally skate, much less a
@@ -94,7 +96,9 @@ export default function Home() {
         </div>
 
         <div className="mb-28 text-center">
-          <h3 className="text-3xl mb-6">Skateparks Build Communities</h3>
+          <h3 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            Skateparks Build Communities
+          </h3>
           <div className={styles.videoWrapper}>
             <iframe
               width="560"
@@ -110,8 +114,10 @@ export default function Home() {
 
         <div className="w-screen flex justify-center bg-slate-100 py-14">
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className="text-3xl mb-2 pt-6">Skateboarding&apos;s Appeal</h2>
-            <div className="text-left text-lg">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Skateboarding&apos;s Appeal
+            </h2>
+            <div className="text-left text-xl">
               <p className="mb-6">
                 There are 8.8 million skateboarders in the U.S. Up 34% from
                 2019, and this does not account for the many other skatepark
@@ -167,8 +173,10 @@ export default function Home() {
           className={`${styles.themeYellowBg} w-screen flex justify-center py-14 mb-28`}
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className="text-3xl mb-2 pt-6">Benefits</h2>
-            <div className="text-left text-lg">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Benefits
+            </h2>
+            <div className="text-left text-xl">
               <p className="mb-6">
                 A local skatepark provides a safe place for people to practice
                 their sport and challenge themselves in a healthy way. Skaters
@@ -211,7 +219,7 @@ export default function Home() {
               </p>
               <div className="mb-4">
                 <Image
-                  src="/art-form.png"
+                  src="/skateboard-artistic.png"
                   alt="skateboarder"
                   width={950}
                   height={950}
@@ -232,8 +240,10 @@ export default function Home() {
 
         <div className={`w-screen flex justify-center mb-28`}>
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className="text-3xl mb-2">Supporting Community Partners</h2>
-            <div className="text-left text-lg">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Supporting Community Partners
+            </h2>
+            <div className="text-left text-xl">
               <p className="mb-6">
                 Our Supporting Community Partners are local businesses who have
                 expressed their support for a skatepark in Park Circle and are
@@ -245,7 +255,9 @@ export default function Home() {
         </div>
 
         <div className="p-12 bg-slate-100 text-center">
-          <h2 className="text-3xl mb-6">Keep up with us!</h2>
+          <h2 className={`${styles.headingFontFamily} text-4xl mb-6 pt-0`}>
+            Keep up with us!
+          </h2>
           <div className={styles.grid}>
             <a
               href="https://instagram.com/parkcircleskate"
