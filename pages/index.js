@@ -239,22 +239,6 @@ export default function Home() {
         </div>
 
         <div className={`w-screen flex justify-center mb-28`}>
-          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
-              Supporting Community Partners
-            </h2>
-            <div className="text-left text-xl">
-              <p className="mb-6">
-                Our Supporting Community Partners are local businesses who have
-                expressed their support for a skatepark in Park Circle and are
-                also advocating for this community improvement.
-              </p>
-              <SupportersList />
-            </div>
-          </div>
-        </div>
-
-        <div className={`w-screen flex justify-center mb-28`}>
           <div className={`text-center max-w-xl px-6 flex flex-col gap-1 pb-6`}>
             <h2 className={`${styles.headingFontFamily} text-3xl pt-0`}>
               Endorsed by the Tony Hawk Foundation
@@ -298,6 +282,22 @@ export default function Home() {
                   Read Letter of Support
                 </button>
               </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={`w-screen flex justify-center mb-28`}>
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Supporting Community Partners
+            </h2>
+            <div className="text-left text-xl">
+              <p className="mb-6">
+                Our Supporting Community Partners are local businesses who have
+                expressed their support for a skatepark in Park Circle and are
+                also advocating for this community improvement.
+              </p>
+              <SupportersList />
             </div>
           </div>
         </div>
