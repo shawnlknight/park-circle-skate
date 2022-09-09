@@ -32,7 +32,7 @@ export const partnersListOne = [
     url: 'https://www.continuumsc.com/',
   },
   {
-    name: 'Cooper Dentistry',
+    name: 'Cooper Family Dentistry',
     url: 'https://www.cooperfamilysmiles.com/',
   },
   {
