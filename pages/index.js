@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import ExternalLink from '../components/Link'
 import SupportersList from '../components/SupportersList'
@@ -254,7 +255,57 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-12 bg-slate-100 text-center">
+        <div className={`w-screen flex justify-center mb-28`}>
+          <div className={`text-center max-w-xl px-6 flex flex-col gap-1 pb-6`}>
+            <h2 className={`${styles.headingFontFamily} text-3xl pt-0`}>
+              Endorsed by the Tony Hawk Foundation
+            </h2>
+            <div>
+              <Image
+                src="/th-skatepark-project.jpeg"
+                alt="tony hawks skatepark project"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div className={styles.videoWrapper}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/qpFyVG2EPQQ"
+                title="YouTube video player - The Tony Hawk Foundation Is Now THE SKATEPARK PROJECT"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className={`text-left text-xl mt-10`}>
+              <p>
+                <ExternalLink
+                  href="https://skatepark.org/"
+                  displayText="The Skatepark Project"
+                />{' '}
+                helps underserved communities create safe and inclusive public
+                skateparks for youth. To-date, over 600 recipients of grants
+                from The Skatepark Project have opened their skateparks. These
+                parks receive more than 6-million visits annually by youth who
+                benefit from the active lifestyle and camaraderie the facilities
+                promote.
+              </p>
+            </div>
+            <div className={`mt-5`}>
+              <Link href="/letter-of-support">
+                <a target="_blank" rel="noreferrer">
+                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                    Read Letter of Support
+                  </button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-12 mt-10 bg-slate-100 text-center">
           <h2 className={`${styles.headingFontFamily} text-4xl mb-6 pt-0`}>
             Keep up with us!
           </h2>
