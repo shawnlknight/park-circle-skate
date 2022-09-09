@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import ExternalLink from '../components/Link'
 import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
 
@@ -103,7 +104,12 @@ export default function LetterOfSupport() {
               <div>Andre Charles Taylor</div>
               <div>Programs Coordinator</div>
               <div>The Skatepark Project</div>
-              <div>www.skatepark.org</div>
+              <div>
+                <ExternalLink
+                  href="https://skatepark.org/"
+                  displayText="www.skatepark.org"
+                />
+              </div>
               <div>(760) 477-2479</div>
               <div>andre@skatepark.org</div>
             </div>
