@@ -32,6 +32,10 @@ export const partnersListOne = [
     url: 'https://www.continuumsc.com/',
   },
   {
+    name: 'Cooper Dentistry',
+    url: 'https://www.cooperfamilysmiles.com/',
+  },
+  {
     name: 'DIG in the Park',
     url: 'https://www.dighospitality.com/about-dig-in-the-park',
   },
@@ -121,6 +125,10 @@ export const partnersListTwo = [
   {
     name: 'Santee Electrical Services',
     url: 'https://www.facebook.com/Santee-Electrical-Services-298859110755665/',
+  },
+  {
+    name: 'Stardust Tattoo',
+    url: 'https://www.stardusttattoos.com/',
   },
   {
     name: 'Team Phun',
