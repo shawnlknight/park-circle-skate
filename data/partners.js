@@ -16,10 +16,6 @@ export const partnersListOne = [
     url: 'https://blackoctopusmerch.com/',
   },
   {
-    name: 'Brew Cellar',
-    url: 'https://thebrewcellar.net/',
-  },
-  {
     name: "Choice's Gourmet Market & Deli",
     url: 'https://www.choicesgourmetmarketdeli.com/',
   },
@@ -79,9 +75,6 @@ export const partnersListOne = [
     name: 'Lowcountry Crawl Spaces',
     url: 'https://www.lowcountrycrawlspaces.com/',
   },
-]
-
-export const partnersListTwo = [
   {
     name: 'Mermaid Miscellany',
     url: 'https://www.mermaidmiscellany.com/',
@@ -90,6 +83,9 @@ export const partnersListTwo = [
     name: 'MoMo Riverfront Park',
     url: 'https://momocharleston.com/',
   },
+]
+
+export const partnersListTwo = [
   {
     name: 'Olde Village Barber Shop',
     url: 'https://www.facebook.com/OldeVillageBarberShop',
@@ -133,6 +129,10 @@ export const partnersListTwo = [
   {
     name: 'Team Phun',
     url: 'https://www.teamphun.com/',
+  },
+  {
+    name: 'The Brew Cellar',
+    url: 'https://thebrewcellar.net/',
   },
   {
     name: 'The Junction Kitchen & Provisions',

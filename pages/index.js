@@ -240,7 +240,7 @@ export default function Home() {
 
         <div className={`w-screen flex justify-center mb-28`}>
           <div className={`text-center max-w-xl px-6 flex flex-col gap-1 pb-6`}>
-            <h2 className={`${styles.headingFontFamily} text-3xl pt-0`}>
+            <h2 className={`${styles.headingFontFamily} text-4xl pt-0`}>
               Endorsed by the Tony Hawk Foundation
             </h2>
             <div>
