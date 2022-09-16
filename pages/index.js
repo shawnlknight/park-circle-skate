@@ -326,9 +326,9 @@ export default function Home() {
                 Charleston.
               </p>
               <p className="mb-6">
-                The Cops Athletic Program offers youth who are unable to secure
-                transportation and/or funds the opportunity to participate in a
-                variety of sports.
+                The Cops Athletic Program supports youth who may lack funds
+                and/or transportation by giving them the opportunity to
+                participate in a variety of sports.
               </p>
               <p>
                 Follow us on{' '}
