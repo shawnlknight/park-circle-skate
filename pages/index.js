@@ -239,7 +239,7 @@ export default function Home() {
         </div>
 
         <div className={`w-screen flex justify-center mb-28`}>
-          <div className={`text-center max-w-xl px-6 flex flex-col gap-1 pb-6`}>
+          <div className={`text-center max-w-xl flex flex-col gap-1 px-6`}>
             <h2 className={`${styles.headingFontFamily} text-4xl pt-0`}>
               Endorsed by the Tony Hawk Foundation
             </h2>
@@ -286,7 +286,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={`w-screen flex justify-center mb-28`}>
+        <div
+          className={`w-screen flex justify-center mb-28 bg-slate-100 py-14`}
+        >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
               Supporting Community Partners
@@ -302,7 +304,44 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-12 mt-10 bg-slate-100 text-center">
+        <div className="w-screen flex justify-center">
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-20">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Youth Skateboarding Program
+            </h2>
+            <div className="text-left text-xl">
+              <p className="mb-6">
+                Park Circle Skate has teamed up with the NCPD&apos;s{' '}
+                <ExternalLink
+                  href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
+                  displayText="Cops Athletic Program"
+                />{' '}
+                to bring <i>free</i> skateboarding clinics to the youth of North
+                Charleston.
+              </p>
+              <p className="mb-6">
+                The Cops Athletic Program offers youth who are unable to secure
+                transportation and/or funds the opportunity to participate in a
+                variety of sports.
+              </p>
+              <p>
+                Follow us on{' '}
+                <ExternalLink
+                  href="https://instagram.com/parkcircleskate"
+                  displayText="Instagram"
+                />{' '}
+                or{' '}
+                <ExternalLink
+                  href="https://www.facebook.com/groups/882978432691586/"
+                  displayText="Facebook"
+                />{' '}
+                for updates on the program!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-12 mt-20 bg-slate-100 text-center">
           <h2 className={`${styles.headingFontFamily} text-4xl mb-6 pt-0`}>
             Keep up with us!
           </h2>
