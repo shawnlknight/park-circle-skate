@@ -310,7 +310,13 @@ export default function Home() {
               Youth Skateboarding Program
             </h2>
             <div className="text-left text-xl">
-              <p className="mb-6">
+              <Image
+                src="/kid-skater.png"
+                alt="person skateboarding"
+                width={600}
+                height={550}
+              />
+              <p className="mb-6 pt-6">
                 Park Circle Skate has teamed up with the NCPD&apos;s{' '}
                 <ExternalLink
                   href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
