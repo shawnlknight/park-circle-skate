@@ -99,6 +99,10 @@ export const partnersListTwo = [
     url: 'https://www.parkcirclecreamery.com/',
   },
   {
+    name: 'Park Circle Pharmacy',
+    url: 'https://parkcirclepharmacy.com/',
+  },
+  {
     name: 'Park Pets',
     url: 'https://www.parkpetsparkcircle.com/',
   },
