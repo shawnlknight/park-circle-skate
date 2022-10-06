@@ -1,30 +1,33 @@
-name: test-github-action-workflow
-
 on:
   workflow_dispatch:
     inputs:
-    timePeriod:
-      description: 'Time Period'
-      required: true
-      default: 'Yesterday'
-      type: choice
-      options:
-        - Today
-        - Yesterday
-        - LastSevenDays
-        - ThisWeek
-        - LastWeek
-        - Last14Days
-  schedule:
-    - cron: '0 9 * * *'
-  # Run at 0900 UTC daily (0500 EDT)
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+          - info
+          - warning
+          - debug
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true
 
 jobs:
-  test-workflow:
+  log-the-inputs:
     runs-on: ubuntu-latest
     steps:
-      - name: 'testing'
+      - run: |
+          echo "Log level: $LEVEL"
+          echo "Tags: $TAGS"
+          echo "Environment: $ENVIRONMENT"
         env:
-          TIME_PERIOD: ${{ inputs.timePeriod }}
-        run: |
-          echo "Time Period: $TIME_PERIOD"
+          LEVEL: ${{ inputs.logLevel }}
+          TAGS: ${{ inputs.tags }}
+          ENVIRONMENT: ${{ inputs.environment }}
