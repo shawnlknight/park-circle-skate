@@ -174,7 +174,7 @@ export default function Home() {
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
-              Benefits
+              Skatepark Benefits
             </h2>
             <div className="text-left text-xl">
               <p className="mb-6">
@@ -289,6 +289,73 @@ export default function Home() {
         <div
           className={`w-screen flex justify-center mb-28 bg-slate-100 py-14`}
         >
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-20">
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+              Youth Skateboarding Programs
+            </h2>
+            <div className="text-left text-xl">
+              <Image
+                src="/kid-skater.png"
+                alt="person skateboarding"
+                width={600}
+                height={550}
+              />
+              <p className="mb-4 pt-6">
+                Park Circle Skate is collaborating with community partners to
+                offer free skateboarding clinics to the youth of North
+                Charleston.
+              </p>
+              <p className="mb-4">
+                Recent collaborations include partnering with the NCPD&apos;s{' '}
+                <ExternalLink
+                  href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
+                  displayText="Cops Athletic Program"
+                />{' '}
+                and the{' '}
+                <ExternalLink
+                  href="https://cydc.org/"
+                  displayText="Carolina Youth Development Center"
+                />{' '}
+                to provide beginner skateboarding lessons for over 20 youth
+                participants.
+              </p>
+              <p className="mb-4">
+                If your organization is interested in co-hosting a skateboarding
+                clinic, please contact Park Circle Skate at{' '}
+                <ExternalLink
+                  href="mailto:parkcircleskate@gmail.com"
+                  displayText="parkcircleskate@gmail.com"
+                />
+                .
+              </p>
+              <p className="mb-6">
+                Follow us on{' '}
+                <ExternalLink
+                  href="https://instagram.com/parkcircleskate"
+                  displayText="Instagram"
+                />{' '}
+                or{' '}
+                <ExternalLink
+                  href="https://www.facebook.com/groups/882978432691586/"
+                  displayText="Facebook"
+                />{' '}
+                for more updates on the programs!
+              </p>
+              <Image
+                src="/skate-clinic-one.png"
+                alt="people with skateboards at clinic"
+                width={600}
+                height={375}
+              />
+              <p className="text-sm text-center text">
+                Skateboard clinic with the Cops Athletic Program{' '}
+                {`(October 22nd, 2022)`}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={`w-screen flex justify-center mb-28`}>
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
               Supporting Community Partners
@@ -300,49 +367,6 @@ export default function Home() {
                 also advocating for this community improvement.
               </p>
               <SupportersList />
-            </div>
-          </div>
-        </div>
-
-        <div className="w-screen flex justify-center">
-          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-20">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
-              Youth Skateboarding Program
-            </h2>
-            <div className="text-left text-xl">
-              <Image
-                src="/kid-skater.png"
-                alt="person skateboarding"
-                width={600}
-                height={550}
-              />
-              <p className="mb-6 pt-6">
-                Park Circle Skate has teamed up with the NCPD&apos;s{' '}
-                <ExternalLink
-                  href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
-                  displayText="Cops Athletic Program"
-                />{' '}
-                to bring <i>free</i> skateboarding clinics to the youth of North
-                Charleston.
-              </p>
-              <p className="mb-6">
-                The Cops Athletic Program supports youth who may lack funds
-                and/or transportation by giving them the opportunity to
-                participate in a variety of sports.
-              </p>
-              <p>
-                Follow us on{' '}
-                <ExternalLink
-                  href="https://instagram.com/parkcircleskate"
-                  displayText="Instagram"
-                />{' '}
-                or{' '}
-                <ExternalLink
-                  href="https://www.facebook.com/groups/882978432691586/"
-                  displayText="Facebook"
-                />{' '}
-                for updates on the program!
-              </p>
             </div>
           </div>
         </div>
