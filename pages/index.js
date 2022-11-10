@@ -114,7 +114,7 @@ export default function Home() {
 
         <div className="w-screen flex justify-center bg-slate-100 py-14">
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
               Skateboarding&apos;s Appeal
             </h2>
             <div className="text-left text-xl">
@@ -173,7 +173,7 @@ export default function Home() {
           className={`${styles.themeYellowBg} w-screen flex justify-center py-14 mb-28`}
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
               Skatepark Benefits
             </h2>
             <div className="text-left text-xl">
@@ -286,11 +286,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div
-          className={`w-screen flex justify-center mb-28 bg-slate-100 py-14`}
-        >
+        <div className={`w-screen flex justify-center bg-slate-100 py-14`}>
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-20">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
               Youth Skateboarding Programs
             </h2>
             <div className="text-left text-xl">
@@ -350,6 +348,41 @@ export default function Home() {
               <p className="text-sm text-center text">
                 Skateboard clinic with the Cops Athletic Program{' '}
                 {`(October 22nd, 2022)`}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className={`${styles.themeYellowBg} w-screen flex justify-center py-14 mb-28`}
+        >
+          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+            <h3 className={`${styles.headingFontFamily} text-4xl mb-4 pt-10`}>
+              North Charleston Christmas Parade
+            </h3>
+            <Image
+              src="/christmas-parade.png"
+              alt="north charleston christmas parade saturday, december 3, 2022"
+              width={600}
+              height={500}
+            />
+            <div className="text-left text-xl">
+              <p className="mb-4">
+                Join us in the North Charleston Christmas Parade on Saturday,
+                December 3rd, 2022 to help demonstrate the need for a
+                free-to-use, safe, and inclusive skatepark for our community.
+              </p>
+              <p className="mb-4">
+                Bring your skateboard, roller skates/blades, scooter, or
+                bicycle, or just walk with us!
+              </p>
+              <p>
+                Email{' '}
+                <ExternalLink
+                  href="mailto:parkcircleskate@gmail.com"
+                  displayText="parkcircleskate@gmail.com"
+                />{' '}
+                if you want to join!
               </p>
             </div>
           </div>
