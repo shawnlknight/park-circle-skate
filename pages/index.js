@@ -264,7 +264,7 @@ export default function Home() {
             </div>
             <div className={`text-left text-xl mt-10`}>
               <p className={`mb-6`}>
-                Park Circle Skate is officially endorsed by Tony Hawk's
+                Park Circle Skate is officially endorsed by Tony Hawk&apos;s
                 non-profit organization,{' '}
                 <ExternalLink
                   href="https://skatepark.org/"
