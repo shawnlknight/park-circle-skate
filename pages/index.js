@@ -263,17 +263,22 @@ export default function Home() {
               ></iframe>
             </div>
             <div className={`text-left text-xl mt-10`}>
-              <p>
+              <p className={`mb-6`}>
+                Park Circle Skate is officially endorsed by Tony Hawk's
+                non-profit organization,{' '}
                 <ExternalLink
                   href="https://skatepark.org/"
                   displayText="The Skatepark Project"
-                />{' '}
-                helps underserved communities create safe and inclusive public
-                skateparks for youth. To-date, over 600 recipients of grants
-                from The Skatepark Project have opened their skateparks. These
-                parks receive more than 6-million visits annually by youth who
-                benefit from the active lifestyle and camaraderie the facilities
-                promote.
+                />
+                .{' '}
+              </p>
+              <p>
+                The Skatepark Project helps underserved communities create safe
+                and inclusive public skateparks for youth. To-date, over 600
+                recipients of grants from The Skatepark Project have opened
+                their skateparks. These parks receive more than 6-million visits
+                annually by youth who benefit from the active lifestyle and
+                camaraderie the facilities promote.
               </p>
             </div>
             <div className={`mt-5`}>
