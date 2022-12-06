@@ -377,29 +377,34 @@ export default function Home() {
             </h3>
             <Image
               src="/christmas-parade.png"
-              alt="north charleston christmas parade saturday, december 3, 2022"
+              alt="north charleston christmas parade info saturday, december 3, 2022"
               width={600}
               height={500}
             />
             <div className="text-left text-xl">
               <p className="mb-4">
-                Join us in the North Charleston Christmas Parade on Saturday,
-                December 3rd, 2022 to help demonstrate the need for a
-                free-to-use, safe, and inclusive skatepark for our community.
+                Park Circle Skate participated in the North Charleston Christmas
+                Parade on Saturday, December 3rd, 2022 to help demonstrate the
+                need for a free-to-use, safe, and inclusive skatepark for our
+                community.
               </p>
               <p className="mb-4">
-                Bring your skateboard, roller skates/blades, scooter, or
-                bicycle, or just walk with us!
-              </p>
-              <p>
-                Email{' '}
-                <ExternalLink
-                  href="mailto:parkcircleskate@gmail.com"
-                  displayText="parkcircleskate@gmail.com"
-                />{' '}
-                if you want to join!
+                We had a diverse group of skateboarders, roller skaters, scooter
+                riders, bicyclists, and walkers spreading cheer!
               </p>
             </div>
+            <Image
+              src="/christmas-one.png"
+              alt="group of people from Park Circle Skate"
+              width={900}
+              height={550}
+            />
+            <Image
+              src="/christmas-two.png"
+              alt="group of people from Park Circle Skate"
+              width={900}
+              height={550}
+            />
           </div>
         </div>
 
