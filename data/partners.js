@@ -83,9 +83,6 @@ export const partnersListOne = [
     name: 'MoMo Riverfront Park',
     url: 'https://momocharleston.com/',
   },
-]
-
-export const partnersListTwo = [
   {
     name: 'Olde Village Barber Shop',
     url: 'https://www.facebook.com/OldeVillageBarberShop',
@@ -94,6 +91,9 @@ export const partnersListTwo = [
     name: 'Olde Village Market & Deli',
     url: 'https://www.yelp.com/biz/olde-village-market-and-deli-north-charleston',
   },
+]
+
+export const partnersListTwo = [
   {
     name: 'Park Circle Creamery',
     url: 'https://www.parkcirclecreamery.com/',
@@ -119,12 +119,20 @@ export const partnersListTwo = [
     url: 'https://www.patchwhisky.com/',
   },
   {
+    name: "Ralph's Barber Shop",
+    url: 'https://www.ralphstrimandtruebarbershop.com/',
+  },
+  {
     name: 'Rebel Taqueria',
     url: 'https://www.rebeltaqueria.com/',
   },
   {
     name: 'Santee Electrical Services',
     url: 'https://www.facebook.com/Santee-Electrical-Services-298859110755665/',
+  },
+  {
+    name: 'Satchel Construction',
+    url: 'https://www.satchelconstruction.com/',
   },
   {
     name: 'Stardust Tattoo',
