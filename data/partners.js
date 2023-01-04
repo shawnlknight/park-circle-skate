@@ -119,10 +119,6 @@ export const partnersListTwo = [
     url: 'https://www.patchwhisky.com/',
   },
   {
-    name: "Ralph's Barber Shop",
-    url: 'https://www.ralphstrimandtruebarbershop.com/',
-  },
-  {
     name: 'Rebel Taqueria',
     url: 'https://www.rebeltaqueria.com/',
   },
