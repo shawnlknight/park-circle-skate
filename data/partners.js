@@ -80,9 +80,16 @@ export const partnersListOne = [
     url: 'https://www.mermaidmiscellany.com/',
   },
   {
+    name: 'Mickelsen Dalton LLC',
+    url: 'https://www.mickelsendalton.com/',
+  },
+  {
     name: 'MoMo Riverfront Park',
     url: 'https://momocharleston.com/',
   },
+]
+
+export const partnersListTwo = [
   {
     name: 'Olde Village Barber Shop',
     url: 'https://www.facebook.com/OldeVillageBarberShop',
@@ -91,9 +98,6 @@ export const partnersListOne = [
     name: 'Olde Village Market & Deli',
     url: 'https://www.yelp.com/biz/olde-village-market-and-deli-north-charleston',
   },
-]
-
-export const partnersListTwo = [
   {
     name: 'Park Circle Creamery',
     url: 'https://www.parkcirclecreamery.com/',
