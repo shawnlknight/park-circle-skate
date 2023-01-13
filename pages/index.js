@@ -6,8 +6,11 @@ import ExternalLink from '../components/Link'
 import Footer from '../components/Footer'
 import SupportersList from '../components/SupportersList'
 import styles from '../styles/Home.module.css'
+import { partnersListOne, partnersListTwo } from '../data/partners'
 
 export default function Home() {
+  const numberOfPartners = [...partnersListOne, ...partnersListTwo].length
+
   return (
     <div className={styles.container}>
       <Head>
@@ -424,13 +427,14 @@ export default function Home() {
         </div>
 
         <div className={`w-screen flex justify-center mb-28`}>
-          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
+          <div className="text-center max-w-xl px-6 flex flex-col pb-6">
             <h2
               id="partners"
-              className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
+              className={`${styles.headingFontFamily} text-4xl mb-0 pt-0`}
             >
               Supporting Community Partners
             </h2>
+            <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">
                 Our Supporting Community Partners are local businesses who have
