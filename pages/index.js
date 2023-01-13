@@ -6,8 +6,11 @@ import ExternalLink from '../components/Link'
 import Footer from '../components/Footer'
 import SupportersList from '../components/SupportersList'
 import styles from '../styles/Home.module.css'
+import { partnersListOne, partnersListTwo } from '../data/partners'
 
 export default function Home() {
+  const numberOfPartners = [...partnersListOne, ...partnersListTwo].length
+
   return (
     <div className={styles.container}>
       <Head>
@@ -52,7 +55,10 @@ export default function Home() {
               height={950}
             />
           </div>
-          <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+          <h2
+            id="why-skateparks"
+            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
+          >
             Why a Skatepark?
           </h2>
           <div className="text-left">
@@ -114,7 +120,10 @@ export default function Home() {
 
         <div className="w-screen flex justify-center bg-slate-100 py-14">
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
+            <h2
+              id="skateboarding-appeal"
+              className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}
+            >
               Skateboarding&apos;s Appeal
             </h2>
             <div className="text-left text-xl">
@@ -173,7 +182,10 @@ export default function Home() {
           className={`${styles.themeYellowBg} w-screen flex justify-center py-14 mb-28`}
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
+            <h2
+              id="benefits"
+              className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}
+            >
               Skatepark Benefits
             </h2>
             <div className="text-left text-xl">
@@ -240,8 +252,11 @@ export default function Home() {
 
         <div className={`w-screen flex justify-center mb-28`}>
           <div className={`text-center max-w-xl flex flex-col gap-1 px-6`}>
-            <h2 className={`${styles.headingFontFamily} text-4xl pt-0`}>
-              Endorsed by the Tony Hawk Foundation
+            <h2
+              id="endorsed"
+              className={`${styles.headingFontFamily} text-4xl pt-0`}
+            >
+              Endorsed by Tony Hawk&apos;s Foundation
             </h2>
             <div>
               <Image
@@ -293,7 +308,10 @@ export default function Home() {
 
         <div className={`w-screen flex justify-center bg-slate-100 py-14`}>
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-20">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}>
+            <h2
+              id="programs"
+              className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}
+            >
               Youth Skateboarding Programs
             </h2>
             <div className="text-left text-xl">
@@ -409,10 +427,14 @@ export default function Home() {
         </div>
 
         <div className={`w-screen flex justify-center mb-28`}>
-          <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
-            <h2 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+          <div className="text-center max-w-xl px-6 flex flex-col pb-6">
+            <h2
+              id="partners"
+              className={`${styles.headingFontFamily} text-4xl mb-0 pt-0`}
+            >
               Supporting Community Partners
             </h2>
+            <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">
                 Our Supporting Community Partners are local businesses who have
@@ -425,7 +447,10 @@ export default function Home() {
         </div>
 
         <div className="p-12 mt-20 bg-slate-100 text-center">
-          <h2 className={`${styles.headingFontFamily} text-4xl mb-6 pt-0`}>
+          <h2
+            id="contact"
+            className={`${styles.headingFontFamily} text-4xl mb-6 pt-0`}
+          >
             Keep up with us!
           </h2>
           <div className={styles.grid}>
