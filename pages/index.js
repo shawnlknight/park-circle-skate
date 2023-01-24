@@ -37,10 +37,10 @@ export default function Home() {
         >
           <div className={`${styles.robotoFontFamily} max-w-lg`}>
             <p>
-              Park Circle Skate is a group of community members and businesses
-              in the Park Circle area of North Charleston who are advocating for
-              a free-to-use, safe, and inclusive concrete skatepark for our
-              community to enjoy.
+              <b>Park Circle Skate</b> is a group of community members and
+              businesses in the Park Circle area of North Charleston who are
+              advocating for a free-to-use, safe, and inclusive concrete
+              skatepark for our community to enjoy.
             </p>
           </div>
         </div>
@@ -66,8 +66,8 @@ export default function Home() {
               Park Circle residents have access to a variety of recreational
               spaces with many being renovated to offer the best facilities to
               the deserving community. However, one important activity that is
-              an athletic sport, art form, and lifestyle has been overlooked,
-              and that is skateboarding.
+              an <b>athletic sport, art form, and lifestyle</b> has been
+              overlooked, and that is skateboarding.
             </p>
             <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
               <p className="p-4 text-xl italic">
@@ -84,14 +84,19 @@ export default function Home() {
             </blockquote>
             <p className="text-xl mb-6">
               You can easily find baseball fields, basketball hoops, and tennis
-              courts in most U.S. cities and towns but many of these same places
-              do not offer anywhere for skaters to legally skate, much less a
-              skatepark. Skaters in these areas are forced to ride in dangerous
-              roadways, sidewalks, or parking lots where they will more than
-              likely be kicked out by local authorities. &quot;[Skaters] show an
-              uncommon dedication to their sport. And what does this commitment
-              to physical exercise and outdoor activity earn them? In many areas
-              it gets them a big fine.&quot; (
+              courts in most U.S. cities and towns but{' '}
+              <b>
+                many of these same places do not offer anywhere for skaters to
+                legally skate
+              </b>
+              , much less a skatepark. Skaters in these areas are forced to ride
+              in dangerous roadways, sidewalks, or parking lots where they will
+              more than likely be kicked out by local authorities.
+            </p>
+            <p className="text-xl mb-6">
+              &quot;[Skaters] show an uncommon dedication to their sport. And
+              what does this commitment to physical exercise and outdoor
+              activity earn them? In many areas it gets them a big fine.&quot; (
               <ExternalLink
                 href="https://publicskateparkguide.org/vision/the-skateboarding-problem/"
                 displayText="Public Skatepark Guide - The Skateboarding Problem"
@@ -128,10 +133,10 @@ export default function Home() {
             </h2>
             <div className="text-left text-xl">
               <p className="mb-6">
-                There are 8.8 million skateboarders in the U.S. Up 34% from
-                2019, and this does not account for the many other skatepark
-                users, like BMX riders, roller/quad skaters, inline skaters,
-                scooter riders, and more. (
+                <b>There are 8.8 million skateboarders in the U.S.</b> Up 34%
+                from 2019, and this does not account for the many other
+                skatepark users, like BMX riders, roller/quad skaters, inline
+                skaters, scooter riders, and more. (
                 <ExternalLink
                   href="https://www.sfia.org/reports/962_Skateboarding-Participation-Report-2021"
                   displayText="Skateboarding Participation Report, 2021"
@@ -155,8 +160,9 @@ export default function Home() {
                 )
               </p>
               <p className="mb-6">
-                Skateboarding is the third most commonly reported interest for
-                high school students (24% of girls, and 17% of boys). (
+                Skateboarding is the{' '}
+                <b>third most commonly reported interest</b> for high school
+                students (24% of girls, and 17% of boys). (
                 <ExternalLink
                   href="https://www.aspeninstitute.org/wp-content/uploads/2021/11/Aspen-National-Student-Survey-FINAL-Report.pdf"
                   displayText="Aspen Institute National Student Survey Analysis, 2021"
@@ -164,10 +170,10 @@ export default function Home() {
                 )
               </p>
               <p className="mb-6">
-                Skateparks are the fourth most used recreation space in terms of
-                total weekly use hours. They were found to be more popular than
-                sports fields, play areas, fitness zones, and dog parks when
-                comparing the total weekly use hours. (
+                Skateparks are the <b>fourth most used recreation space</b> in
+                terms of total weekly use hours. They were found to be more
+                popular than sports fields, play areas, fitness zones, and dog
+                parks when comparing the total weekly use hours. (
                 <ExternalLink
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5030121/"
                   displayText="The First National Study of Neighborhood Parks, 2016"
@@ -190,12 +196,12 @@ export default function Home() {
             </h2>
             <div className="text-left text-xl">
               <p className="mb-6">
-                A local skatepark provides a safe place for people to practice
-                their sport and challenge themselves in a healthy way. Skaters
-                encourage each other to push beyond what they think is possible.
-                A skater can spend hours/days/weeks trying a new trick and
-                perfecting it. This persistance teaches them valuable lessons
-                that transfer over to other aspects of life.
+                A local skatepark <b>provides a safe place</b> for people to
+                practice their sport and challenge themselves in a healthy way.
+                Skaters encourage each other to push beyond what they think is
+                possible. A skater can spend hours/days/weeks trying a new trick
+                and perfecting it. This persistance teaches them valuable
+                lessons that transfer over to other aspects of life.
               </p>
               <blockquote className={`${styles.blockquoteAlternate} p-4 mb-8`}>
                 <p className="p-4 italic">
@@ -209,9 +215,10 @@ export default function Home() {
                 <span>- Jerry Seinfeld, Comedian and Social Observer</span>
               </blockquote>
               <p className="mb-6">
-                Skateboarding is an excellent form of exercise and gets people
-                outdoors. Both youth and adults get their CDC recommended daily
-                cardiovascular exercise while skateboarding at skateparks. (
+                Skateboarding is an <b>excellent form of exercise</b> and gets
+                people outdoors. Both youth and adults get their CDC recommended
+                daily cardiovascular exercise while skateboarding at skateparks.
+                (
                 <ExternalLink
                   href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7241629/"
                   displayText="CSUSM Studies in the International Journal of Exercise Science, 2020"
@@ -220,9 +227,12 @@ export default function Home() {
               </p>
               <p className="mb-6">
                 Along with the benefits to physical health, a recent study of
-                skateboarding culture reveals that skateboarding improves mental
-                health, fosters community, and encourages diversity and
-                resilience. (
+                skateboarding culture reveals that skateboarding{' '}
+                <b>
+                  improves mental health, fosters community, and encourages
+                  diversity and resilience.
+                </b>{' '}
+                (
                 <ExternalLink
                   href="https://www.google.com/url?q=https://pullias.usc.edu/blog/groundbreaking-study-redefines-skateboarding-culture/&sa=D&source=docs&ust=1659031588220165&usg=AOvVaw39D_tAen3WK8V3Ss-G4QMi"
                   displayText="Pullias Center for Higher Education"
@@ -239,12 +249,15 @@ export default function Home() {
               </div>
               <p className="mb-6">
                 In addition to a sport, skateboarding is also considered to be a
-                lifestyle and an art form. It can provide a sense of
-                individuality and a means for artistic expression for our youth.
-                Few sports give the individual participant complete creative
-                control, and it is through the process of self-discovery and
-                testing one&apos;s limits that a skater can develop his or her
-                own style.
+                lifestyle and an art form.{' '}
+                <b>
+                  It can provide a sense of individuality and a means for
+                  artistic expression
+                </b>{' '}
+                for our youth. Few sports give the individual participant
+                complete creative control, and it is through the process of
+                self-discovery and testing one&apos;s limits that a skater can
+                develop his or her own style.
               </p>
             </div>
           </div>
@@ -289,11 +302,10 @@ export default function Home() {
               </p>
               <p>
                 The Skatepark Project helps underserved communities create safe
-                and inclusive public skateparks for youth. To-date, over 600
-                recipients of grants from The Skatepark Project have opened
-                their skateparks. These parks receive more than 6-million visits
-                annually by youth who benefit from the active lifestyle and
-                camaraderie the facilities promote.
+                and inclusive public skateparks for youth. To-date, they have
+                helped open over 600 skateparks. These parks receive more than
+                6-million visits annually by youth who benefit from the active
+                lifestyle and camaraderie the facilities promote.
               </p>
             </div>
             <div className={`mt-5`}>
@@ -323,7 +335,7 @@ export default function Home() {
               />
               <p className="mb-4 pt-6">
                 Park Circle Skate is collaborating with community partners to
-                offer free skateboarding clinics to the youth of North
+                offer <b>free skateboarding clinics to the youth</b> of North
                 Charleston.
               </p>
               <p className="mb-4">
@@ -403,8 +415,8 @@ export default function Home() {
               <p className="mb-4">
                 Park Circle Skate participated in the North Charleston Christmas
                 Parade on Saturday, December 3rd, 2022 to help demonstrate the
-                need for a free-to-use, safe, and inclusive skatepark for our
-                community.
+                need for a <b>free-to-use, safe, and inclusive skatepark</b> for
+                our community.
               </p>
               <p className="mb-4">
                 We had a diverse group of skateboarders, roller skaters, scooter
