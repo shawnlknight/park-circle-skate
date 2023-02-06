@@ -37,10 +37,10 @@ export default function Home() {
         >
           <div className={`${styles.robotoFontFamily} max-w-lg`}>
             <p>
-              <b>Park Circle Skate</b> is a group of community members and
-              businesses in the Park Circle area of North Charleston who are
-              advocating for a free-to-use, safe, and inclusive concrete
-              skatepark for our community to enjoy.
+              We are a group of volunteer community members and businesses in
+              the Park Circle area of North Charleston who are advocating for a
+              free-to-use, safe, and inclusive concrete skatepark for our
+              community to enjoy.
             </p>
           </div>
         </div>
@@ -61,7 +61,17 @@ export default function Home() {
           >
             Why a Skatepark?
           </h2>
+          <Image
+            alt="skate wheel icon"
+            height={100}
+            width={100}
+            src="/wheel-logo.svg"
+          />
+
           <div className="text-left">
+            <h3 className={`text-3xl mb-5`}>
+              No safe and legal place to skate
+            </h3>
             <p className="text-xl mb-8">
               Park Circle residents have access to a variety of recreational
               spaces with many being renovated to offer the best facilities to
@@ -89,9 +99,12 @@ export default function Home() {
                 many of these same places do not offer anywhere for skaters to
                 legally skate
               </b>
-              , much less a skatepark. Skaters in these areas are forced to ride
-              in dangerous roadways, sidewalks, or parking lots where they will
-              more than likely be kicked out by local authorities.
+              , much less a skatepark.
+            </p>
+            <p className="text-xl mb-6">
+              Skaters in these areas are forced to ride in dangerous roadways,
+              sidewalks, or parking lots where they will more than likely be
+              kicked out by local authorities.
             </p>
             <p className="text-xl mb-6">
               &quot;[Skaters] show an uncommon dedication to their sport. And
@@ -131,6 +144,12 @@ export default function Home() {
             >
               Skateboarding&apos;s Appeal
             </h2>
+            <Image
+              alt="Earth with skateboard icon"
+              height={100}
+              width={100}
+              src="/appeal-logo.svg"
+            />
             <div className="text-left text-xl">
               <p className="mb-6">
                 <b>There are 8.8 million skateboarders in the U.S.</b> Up 34%
@@ -194,7 +213,14 @@ export default function Home() {
             >
               Skatepark Benefits
             </h2>
+            <Image
+              alt="heart icon"
+              height={100}
+              width={100}
+              src="/health-logo.svg"
+            />
             <div className="text-left text-xl">
+              <h3 className={`text-3xl mb-5`}>Safe Place</h3>
               <p className="mb-6">
                 A local skatepark <b>provides a safe place</b> for people to
                 practice their sport and challenge themselves in a healthy way.
@@ -214,6 +240,7 @@ export default function Home() {
                 </p>
                 <span>- Jerry Seinfeld, Comedian and Social Observer</span>
               </blockquote>
+              <h3 className={`text-3xl mb-5`}>Form of exercise</h3>
               <p className="mb-6">
                 Skateboarding is an <b>excellent form of exercise</b> and gets
                 people outdoors. Both youth and adults get their CDC recommended
@@ -225,6 +252,7 @@ export default function Home() {
                 />
                 )
               </p>
+              <h3 className={`text-3xl mb-5`}>Improves mental health</h3>
               <p className="mb-6">
                 Along with the benefits to physical health, a recent study of
                 skateboarding culture reveals that skateboarding{' '}
@@ -247,6 +275,7 @@ export default function Home() {
                   height={950}
                 />
               </div>
+              <h3 className={`text-3xl mb-5`}>Artistic expression</h3>
               <p className="mb-6">
                 In addition to a sport, skateboarding is also considered to be a
                 lifestyle and an art form.{' '}
@@ -446,6 +475,12 @@ export default function Home() {
             >
               Supporting Community Partners
             </h2>
+            <Image
+              alt="shaking hands icon"
+              height={100}
+              width={100}
+              src="/partner-logo.svg"
+            />
             <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">
