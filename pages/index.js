@@ -211,7 +211,7 @@ export default function Home() {
               id="benefits"
               className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}
             >
-              Skatepark Benefits
+              Benefits
             </h2>
             <Image
               alt="heart icon"
@@ -220,7 +220,7 @@ export default function Home() {
               src="/health-logo.svg"
             />
             <div className="text-left text-xl">
-              <h3 className={`text-3xl mb-5`}>Safe Place</h3>
+              <h3 className={`text-3xl mb-5`}>Safe place</h3>
               <p className="mb-6">
                 A local skatepark <b>provides a safe place</b> for people to
                 practice their sport and challenge themselves in a healthy way.
