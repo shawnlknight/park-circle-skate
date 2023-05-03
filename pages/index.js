@@ -419,9 +419,19 @@ export default function Home() {
                 width={600}
                 height={430}
               />
-              <p className="text-sm text-center text">
+              <p className="text-sm text-center text mb-10">
                 Skateboard clinic with the Carolina Youth Development Center{' '}
                 {`(November 12th, 2022)`}
+              </p>
+              <Image
+                src="/skate-clinic-three.png"
+                alt="people with skateboards at clinic"
+                width={600}
+                height={430}
+              />
+              <p className="text-sm text-center text">
+                Skateboard clinic with the Carolina Youth Development Center{' '}
+                {`(April 1st, 2023)`}
               </p>
             </div>
           </div>
