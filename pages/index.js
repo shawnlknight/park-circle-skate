@@ -442,8 +442,11 @@ export default function Home() {
         >
           <div className="text-center max-w-xl px-6 flex flex-col gap-8 pb-6">
             <h3 className={`${styles.headingFontFamily} text-4xl mb-4 pt-10`}>
-              North Charleston Christmas Parade
+              Events
             </h3>
+            <h4 className={`${styles.headingFontFamily} text-3xl`}>
+              North Charleston Christmas Parade
+            </h4>
             <Image
               src="/christmas-parade.png"
               alt="north charleston christmas parade info saturday, december 3, 2022"
@@ -474,6 +477,27 @@ export default function Home() {
               width={900}
               height={550}
             />
+            <h4 className={`${styles.headingFontFamily} text-3xl mt-10`}>
+              Roller Derby
+            </h4>
+            <Image
+              src="/roller-derby-one.png"
+              alt="group of people at roller derby"
+              width={900}
+              height={620}
+            />
+            <div className="text-left text-xl">
+              <p className="mb-4">
+                Park Circle Skate had the opportunity to hold a skateboard demo
+                during the halftime show at the Roller Derby on March 25th,
+                2023. Thanks to the{' '}
+                <ExternalLink
+                  href="https://www.lowcountryhighrollers.com/"
+                  displayText="Lowcountry Highrollers"
+                />{' '}
+                for having us out!
+              </p>
+            </div>
           </div>
         </div>
 
