@@ -459,6 +459,31 @@ export default function Home() {
               Events
             </h3>
             <h4 className={`${styles.headingFontFamily} text-3xl`}>
+              Park Circle Art Walk
+            </h4>
+            <Image
+              src="/art-walk.png"
+              alt="park circle art walk"
+              priority
+              width={600}
+              height={450}
+            />
+            <div className="text-left text-xl">
+              <p className="mb-4">
+                Park Circle Skate was out at the Art Walk on October 15, 2022 to
+                help spread the word about the benefits of public skateparks.
+              </p>
+              <p className="mb-4">
+                We also raffled off two skateboard decks that were hand-painted
+                by artists at{' '}
+                <ExternalLink
+                  href="https://www.stardusttattoos.com/"
+                  displayText="Stardust Tattoo"
+                />
+                .
+              </p>
+            </div>
+            <h4 className={`${styles.headingFontFamily} text-3xl mt-10`}>
               North Charleston Christmas Parade
             </h4>
             <Image
