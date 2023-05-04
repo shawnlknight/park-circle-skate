@@ -113,17 +113,6 @@ export default function LetterOfSupport() {
               <div>(760) 477-2479</div>
               <div>andre@skatepark.org</div>
             </div>
-            <div className={`mt-20 text-center`}>
-              <Link
-                href="/letter-of-support-pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                  View PDF Letter of Support
-                </button>
-              </Link>
-            </div>
             <div className={`mt-5 text-center`}>
               <Link href="/">
                 <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
