@@ -61,12 +61,14 @@ export default function Home() {
           >
             Why a Skatepark?
           </h2>
-          <Image
-            alt="skate wheel icon"
-            height={100}
-            width={100}
-            src="/wheel-logo.svg"
-          />
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <Image
+              alt="skate wheel icon"
+              height={100}
+              width={100}
+              src="/wheel-logo.svg"
+            />
+          </div>
 
           <div className="text-left">
             <h3 className={`text-3xl mb-5`}>
@@ -144,12 +146,15 @@ export default function Home() {
             >
               Skateboarding&apos;s Appeal
             </h2>
-            <Image
-              alt="Earth with skateboard icon"
-              height={100}
-              width={100}
-              src="/appeal-logo.svg"
-            />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <Image
+                alt="Earth with skateboard icon"
+                height={100}
+                width={100}
+                src="/appeal-logo.svg"
+              />
+            </div>
+
             <div className="text-left text-xl">
               <p className="mb-6">
                 <b>There are 8.8 million skateboarders in the U.S.</b> Up 34%
@@ -213,12 +218,15 @@ export default function Home() {
             >
               Benefits
             </h2>
-            <Image
-              alt="heart icon"
-              height={100}
-              width={100}
-              src="/health-logo.svg"
-            />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <Image
+                alt="heart icon"
+                height={100}
+                width={100}
+                src="/health-logo.svg"
+              />
+            </div>
+
             <div className="text-left text-xl">
               <h3 className={`text-3xl mb-5`}>Safe place</h3>
               <p className="mb-6">
@@ -300,7 +308,7 @@ export default function Home() {
             >
               Endorsed by Tony Hawk&apos;s Foundation
             </h2>
-            <div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
               <Image
                 src="/th-skatepark-project.jpeg"
                 alt="tony hawks skatepark project"
@@ -509,12 +517,15 @@ export default function Home() {
             >
               Supporting Community Partners
             </h2>
-            <Image
-              alt="shaking hands icon"
-              height={100}
-              width={100}
-              src="/partner-logo.svg"
-            />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <Image
+                alt="shaking hands icon"
+                height={100}
+                width={100}
+                src="/partner-logo.svg"
+              />
+            </div>
+
             <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">

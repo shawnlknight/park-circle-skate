@@ -22,7 +22,7 @@ export default function LetterOfSupport() {
           >
             Letter of Support
           </h1>
-          <div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Image
               src="/th-skatepark-project.jpeg"
               alt="the skatepark project logo"
@@ -112,15 +112,6 @@ export default function LetterOfSupport() {
               </div>
               <div>(760) 477-2479</div>
               <div>andre@skatepark.org</div>
-            </div>
-            <div className={`mt-20 text-center`}>
-              <Link href="/letter-of-support-pdf">
-                <a target="_blank" rel="noreferrer">
-                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                    View PDF Letter of Support
-                  </button>
-                </a>
-              </Link>
             </div>
             <div className={`mt-5 text-center`}>
               <Link href="/">
