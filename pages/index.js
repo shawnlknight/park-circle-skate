@@ -171,6 +171,7 @@ export default function Home() {
                 <Image
                   src="/skater-two.png"
                   alt="Two skateboarders at a skatepark"
+                  priority
                   width={950}
                   height={950}
                 />
@@ -279,6 +280,7 @@ export default function Home() {
                 <Image
                   src="/skateboard-artistic.png"
                   alt="skateboarder"
+                  priority
                   width={950}
                   height={950}
                 />
@@ -367,6 +369,7 @@ export default function Home() {
               <Image
                 src="/kid-skater.png"
                 alt="person skateboarding"
+                priority
                 width={600}
                 height={550}
               />
@@ -414,6 +417,7 @@ export default function Home() {
               <Image
                 src="/skate-clinic-one.png"
                 alt="people with skateboards at clinic"
+                priority
                 width={600}
                 height={375}
               />
@@ -424,6 +428,7 @@ export default function Home() {
               <Image
                 src="/skate-clinic-two.png"
                 alt="people with skateboards at clinic"
+                priority
                 width={600}
                 height={430}
               />
@@ -434,6 +439,7 @@ export default function Home() {
               <Image
                 src="/skate-clinic-three.png"
                 alt="people with skateboards at clinic"
+                priority
                 width={600}
                 height={430}
               />
@@ -458,6 +464,7 @@ export default function Home() {
             <Image
               src="/christmas-parade.png"
               alt="north charleston christmas parade info saturday, december 3, 2022"
+              priority
               width={600}
               height={500}
             />
@@ -476,12 +483,14 @@ export default function Home() {
             <Image
               src="/christmas-one.png"
               alt="group of people from Park Circle Skate"
+              priority
               width={900}
               height={550}
             />
             <Image
               src="/christmas-two.png"
               alt="group of people from Park Circle Skate"
+              priority
               width={900}
               height={550}
             />
@@ -491,6 +500,7 @@ export default function Home() {
             <Image
               src="/roller-derby-one.png"
               alt="group of people at roller derby"
+              priority
               width={900}
               height={620}
             />
