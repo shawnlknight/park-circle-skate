@@ -135,6 +135,10 @@ export const partnersListTwo = [
     url: 'https://www.satchelconstruction.com/',
   },
   {
+    name: 'Second Chance Bikes',
+    url: 'https://scbikes.org/',
+  },
+  {
     name: 'Stardust Tattoo',
     url: 'https://www.stardusttattoos.com/',
   },
