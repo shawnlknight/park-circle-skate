@@ -20,11 +20,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={`${styles.themeBlueColor} text-5xl text-center`}>
-          Welcome to Park Circle Skate
-        </h1>
-
-        <div className="m-10">
+        <div className="mb-10">
           <Image
             src="/pc-skate-logo-main-v2.png"
             alt="Park Circle Skate wheel Logo"
@@ -32,6 +28,9 @@ export default function Home() {
             height={200}
           />
         </div>
+        <h1 className={`${styles.themeBlueColor} text-5xl text-center mb-10`}>
+          Welcome to Park Circle Skate
+        </h1>
         <div
           className={`${styles.banner} w-screen flex justify-center text-center text-2xl italic mb-20 p-12`}
         >
