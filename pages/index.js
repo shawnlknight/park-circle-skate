@@ -39,7 +39,7 @@ export default function Home() {
               We are a group of volunteer community members and businesses in
               the Park Circle area of North Charleston who are advocating for a
               free-to-use, safe, and inclusive concrete skatepark for our
-              community to enjoy.
+              community to enjoy. testing new computer...
             </p>
           </div>
         </div>
