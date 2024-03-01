@@ -75,6 +75,11 @@ export default function Home() {
             </p>
             <p className="text-xl mb-6">
               The design includes a variety of features that cater to all skill levels and styles of skateboarding. It is designed to be a safe and inclusive space for the community to enjoy.
+              You can view the full concept design on our Instagram page{' '}  
+              <ExternalLink
+                href="https://www.instagram.com/reel/C04QHoKO4M5/?igsh=MWVqYXM5ejAyZzhqZg=="
+                displayText="here"
+              />.
             </p>
           </div>
         </div>
