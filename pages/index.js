@@ -22,7 +22,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className="mb-10">
           <Image
-            src="/pc-skate-logo-main-v2.png"
+            src="/pc-skate-logo-main-v2-dark.png"
             alt="Park Circle Skate wheel Logo"
             width={200}
             height={200}
@@ -40,6 +40,41 @@ export default function Home() {
               the Park Circle area of North Charleston who are advocating for a
               free-to-use, safe, and inclusive concrete skatepark for our
               community to enjoy.
+            </p>
+          </div>
+        </div>
+
+        <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
+          <div>
+            <Image
+              src="/concept-design.png"
+              alt="skatepark concept design"
+              priority
+              width={950}
+              height={950}
+            />
+          </div>
+          <h2
+            id="why-skateparks"
+            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
+          >
+            Skatepark Concept Design
+          </h2>
+
+          <div className="text-left"> 
+            <p className="text-xl mb-8">
+              This concept design demonstrates our vision for a skatepark in Park Circle. It was created by{' '}       
+              <ExternalLink
+                href="https://platformgroup43.com/"
+                displayText="Platform Group"
+              /> via a grant from{' '} 
+              <ExternalLink
+                href="https://www.plantapark.org/"
+                displayText="Plant-A-Park"
+              />, a non-profit organization that helps communities create public skateparks by funding the design portion of the skatepark.
+            </p>
+            <p className="text-xl mb-6">
+              The design includes a variety of features that cater to all skill levels and styles of skateboarding. It is designed to be a safe and inclusive space for the community to enjoy.
             </p>
           </div>
         </div>
