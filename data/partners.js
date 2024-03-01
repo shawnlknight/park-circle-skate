@@ -9,11 +9,11 @@ export const partnersListOne = [
   },
   {
     name: 'Barrel House Spirits',
-    url: 'https://www.facebook.com/BarrelHouseSpiritsCHS/',
+    url: 'https://www.instagram.com/barrelhousespirits/',
   },
   {
     name: 'Black Octopus Mercantile',
-    url: 'https://blackoctopusmerch.com/',
+    url: 'https://www.instagram.com/blackoctopusmercantile/',
   },
   {
     name: "Choice's Gourmet Market & Deli",
@@ -33,7 +33,7 @@ export const partnersListOne = [
   },
   {
     name: 'DIG in the Park',
-    url: 'https://www.dighospitality.com/about-dig-in-the-park',
+    url: 'https://www.diginthepark.com/',
   },
   {
     name: 'EVO Pizzeria',
@@ -41,7 +41,7 @@ export const partnersListOne = [
   },
   {
     name: 'Exotic Impressions',
-    url: 'https://www.bodypiercingsc.com/',
+    url: 'https://bodypiercingsc.com/index.html',
   },
   {
     name: 'Fast Doll',
@@ -172,6 +172,6 @@ export const partnersListTwo = [
   },
   {
     name: 'Zumiez 728',
-    url: 'https://www.zumiez.com/storelocator/store/index/id/728?utm_source=google+my+business&utm_medium=organic&utm_campaign=store+locations&utm_content=tanger',
+    url: 'https://www.zumiez.com/',
   },
 ]
