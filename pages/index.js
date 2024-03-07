@@ -44,7 +44,60 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="mb-10 text-center">
+          <h3 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+            Promo Video for Park Circle Skate
+          </h3>
+          <div className={styles.videoWrapper}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/V9ojTMb4trQ?si=HILHQiIFvG8Vp5d6"
+              title="YouTube video player - Park Circle Skate promo video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div className="mb-28 text-xl max-w-xl px-6 flex flex-col gap-8">
+          <p>
+            This video showcases a couple of free youth skateboarding clinics we
+            hosted where we partnered with the{' '}
+            <ExternalLink
+              href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
+              displayText="NCPD Cops Athletic Program"
+            />{' '}
+            and the{' '}
+            <ExternalLink
+              href="https://cydc.org/"
+              displayText="Carolina Youth Development Center"
+            />
+            .
+          </p>
+          <p>
+            The video shows our group in the North Charleston Christmas Parade
+            and a skateboard demo at a{' '}
+            <ExternalLink
+              href="https://www.lowcountryhighrollers.com/"
+              displayText="Lowcountry Highrollers"
+            />{' '}
+            roller derby competition.
+          </p>
+          <p>
+            It also contains a digital video of the concept design for our
+            community skatepark!
+          </p>
+        </div>
+
         <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
+          <h2
+            id="why-skateparks"
+            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
+          >
+            Skatepark Concept Design
+          </h2>
           <div>
             <Image
               src="/concept-design.png"
@@ -54,37 +107,43 @@ export default function Home() {
               height={950}
             />
           </div>
-          <h2
-            id="why-skateparks"
-            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
-          >
-            Skatepark Concept Design
-          </h2>
-
-          <div className="text-left"> 
+          <div className="text-left">
             <p className="text-xl mb-8">
-              This concept design demonstrates our vision for a skatepark in Park Circle. It was created by{' '}       
+              This concept design demonstrates our vision for a skatepark in
+              Park Circle. It was created by{' '}
               <ExternalLink
                 href="https://platformgroup43.com/"
                 displayText="Platform Group"
-              /> via a grant from{' '} 
+              />{' '}
+              via a grant from{' '}
               <ExternalLink
                 href="https://www.plantapark.org/"
                 displayText="Plant-A-Park"
-              />, a non-profit organization that helps communities create public skateparks by funding the design portion of the skatepark.
+              />
+              , a non-profit organization that helps communities create public
+              skateparks by funding the design portion of the skatepark.
             </p>
             <p className="text-xl mb-6">
-              The design includes a variety of features that cater to all skill levels and styles of skateboarding. It is designed to be a safe and inclusive space for the community to enjoy.
-              You can view the full concept design on our Instagram page{' '}  
+              The design includes a variety of features that cater to all skill
+              levels and styles of skateboarding. It is designed to be a safe
+              and inclusive space for the community to enjoy. You can view the
+              full concept design on our Instagram page{' '}
               <ExternalLink
                 href="https://www.instagram.com/reel/C04QHoKO4M5/?igsh=MWVqYXM5ejAyZzhqZg=="
                 displayText="here"
-              />.
+              />
+              .
             </p>
           </div>
         </div>
 
         <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
+          <h2
+            id="why-skateparks"
+            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
+          >
+            Why a Skatepark?
+          </h2>
           <div>
             <Image
               src="/skater-one.png"
@@ -94,12 +153,6 @@ export default function Home() {
               height={950}
             />
           </div>
-          <h2
-            id="why-skateparks"
-            className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
-          >
-            Why a Skatepark?
-          </h2>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Image
               alt="skate wheel icon"
