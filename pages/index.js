@@ -45,9 +45,12 @@ export default function Home() {
         </div>
 
         <div className="mb-10 text-center">
-          <h3 className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}>
+          <h2
+            id="promo-video"
+            className={`${styles.headingFontFamily} text-4xl mb-5 pt-0`}
+          >
             Promo Video for Park Circle Skate
-          </h3>
+          </h2>
           <div className={styles.videoWrapper}>
             <iframe
               width="560"
@@ -63,8 +66,8 @@ export default function Home() {
 
         <div className="mb-28 text-xl max-w-xl px-6 flex flex-col gap-8">
           <p>
-            This video showcases a couple of free youth skateboarding clinics we
-            hosted where we partnered with the{' '}
+            This video showcases a couple of the free youth skateboarding
+            clinics we ran where we partnered with the{' '}
             <ExternalLink
               href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
               displayText="NCPD Cops Athletic Program"
@@ -77,35 +80,33 @@ export default function Home() {
             .
           </p>
           <p>
-            The video shows our group in the North Charleston Christmas Parade
-            and a skateboard demo at a{' '}
+            The video also shows our group in the North Charleston Christmas
+            Parade and a skateboard demo at a{' '}
             <ExternalLink
               href="https://www.lowcountryhighrollers.com/"
               displayText="Lowcountry Highrollers"
             />{' '}
             roller derby competition.
           </p>
-          <p>
-            It also contains a digital video of the concept design for our
-            community skatepark!
-          </p>
         </div>
 
         <div className="mb-24 text-center max-w-xl px-6 flex flex-col gap-8">
           <h2
-            id="why-skateparks"
+            id="concept-design"
             className={`${styles.headingFontFamily} text-4xl mb-2 pt-0`}
           >
             Skatepark Concept Design
           </h2>
-          <div>
-            <Image
-              src="/concept-design.png"
-              alt="skatepark concept design"
-              priority
-              width={950}
-              height={950}
-            />
+          <div className={styles.videoWrapper}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/WQvgumyme2A?si=rsTahJ13VHIuFF86"
+              title="YouTube video player - skatepark concept design for Park Circle Skatepark Project"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div className="text-left">
             <p className="text-xl mb-8">
@@ -126,13 +127,7 @@ export default function Home() {
             <p className="text-xl mb-6">
               The design includes a variety of features that cater to all skill
               levels and styles of skateboarding. It is designed to be a safe
-              and inclusive space for the community to enjoy. You can view the
-              full concept design on our Instagram page{' '}
-              <ExternalLink
-                href="https://www.instagram.com/reel/C04QHoKO4M5/?igsh=MWVqYXM5ejAyZzhqZg=="
-                displayText="here"
-              />
-              .
+              and inclusive space for the community to enjoy.
             </p>
           </div>
         </div>
