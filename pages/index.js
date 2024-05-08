@@ -637,7 +637,7 @@ export default function Home() {
               id="partners"
               className={`${styles.headingFontFamily} text-4xl mb-0 pt-0`}
             >
-              Supporting Community Partners
+              Community Partners
             </h2>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <Image
@@ -651,7 +651,7 @@ export default function Home() {
             <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">
-                Our Supporting Community Partners are local businesses who have
+                Our Community Partners are local businesses who have
                 expressed their support for a skatepark in Park Circle and are
                 also advocating for this community improvement.
               </p>
