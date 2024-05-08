@@ -15,25 +15,25 @@
 }
 
 .themeYellowColor {
-  color: #fedea3;
+  color: #FFCE75;
 }
 
 .themeYellowBg {
-  background: #fedea3;
+  background: #FFCE75;
 }
 
 .themeDarkBlueBg {
   background: #102538;
 }
 
-.themeYelloUnderline {
+.themeYellowUnderline {
   text-decoration: underline;
-  text-decoration-color: #fedea3;
+  text-decoration-color: #FFCE75;
 }
 
 .banner {
   background: #102538;
-  color: #fedea3;
+  color: #FFCE75;
 }
 
 .main {
@@ -53,7 +53,7 @@
   padding: 2rem 0;
   justify-content: center;
   align-items: center;
-  /* background: #fedea3; */
+  /* background: #FFCE75; */
 }
 
 .footer a {
@@ -114,10 +114,10 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 4px solid #fedea3;
+  border: 4px solid #FFCE75;
   border-radius: 10px;
   background: #102538;
-  color: #fedea3;
+  color: #FFCE75;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
@@ -126,9 +126,9 @@
 .card:focus,
 .card:active {
   background: #102538;
-  color: #fedea3;
-  border: 4px solid #fedea3;
-  box-shadow: 10px 5px 5px #fedea3;
+  color: #FFCE75;
+  border: 4px solid #FFCE75;
+  box-shadow: 10px 5px 5px #FFCE75;
 }
 
 .card h2 {
@@ -142,14 +142,14 @@
 }
 
 .blockquote {
-  border-left: 8px solid #fedea3;
+  border-left: 8px solid #FFCE75;
   position: relative;
 }
 
 .blockquote::before {
   font-family: Arial;
   content: '\201C';
-  color: #fedea3;
+  color: #FFCE75;
   font-size: 4em;
   position: absolute;
   left: 10px;
