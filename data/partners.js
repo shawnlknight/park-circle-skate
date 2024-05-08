@@ -1,9 +1,5 @@
 export const partnersListOne = [
   {
-    name: 'Abundant Seafood',
-    url: 'https://www.abundantseafood.co/',
-  },
-  {
     name: 'Accent on Wine',
     url: 'https://www.accentonwine.com/',
   },
@@ -14,14 +10,6 @@ export const partnersListOne = [
   {
     name: 'Black Octopus Mercantile',
     url: 'https://www.instagram.com/blackoctopusmercantile/',
-  },
-  {
-    name: "Choice's Gourmet Market & Deli",
-    url: 'https://www.choicesgourmetmarketdeli.com/',
-  },
-  {
-    name: 'Coney Island Park Circle',
-    url: 'https://www.parkcircleconeyisland.com/',
   },
   {
     name: 'Continuum',
@@ -46,10 +34,6 @@ export const partnersListOne = [
   {
     name: 'Fast Doll',
     url: 'https://www.fastdoll.com/',
-  },
-  {
-    name: 'Game Night Charleston',
-    url: 'https://gamenightchs.com/',
   },
   {
     name: 'Grassroots Gymnastics',
@@ -87,9 +71,6 @@ export const partnersListOne = [
     name: 'MoMo Riverfront Park',
     url: 'https://momocharleston.com/',
   },
-]
-
-export const partnersListTwo = [
   {
     name: 'Olde Village Barber Shop',
     url: 'https://www.facebook.com/OldeVillageBarberShop',
@@ -98,6 +79,9 @@ export const partnersListTwo = [
     name: 'Olde Village Market & Deli',
     url: 'https://www.yelp.com/biz/olde-village-market-and-deli-north-charleston',
   },
+]
+
+export const partnersListTwo = [
   {
     name: 'Park Circle Creamery',
     url: 'https://www.parkcirclecreamery.com/',
@@ -105,10 +89,6 @@ export const partnersListTwo = [
   {
     name: 'Park Circle Pharmacy',
     url: 'https://parkcirclepharmacy.com/',
-  },
-  {
-    name: 'Park Pets',
-    url: 'https://www.parkpetsparkcircle.com/',
   },
   {
     name: 'Park Pizza',
@@ -159,19 +139,11 @@ export const partnersListTwo = [
     url: 'https://nicholsteam.carolinaonerealestate.com/Team/Detail/nicholsteam',
   },
   {
-    name: 'The Sparrow',
-    url: 'https://www.facebook.com/thesparrowparkcircle/',
-  },
-  {
     name: 'Transformer Rails',
     url: 'https://transformerrails.com/',
   },
   {
     name: 'Wind & Waves Brewing',
     url: 'https://www.windandwavesbrewing.com/',
-  },
-  {
-    name: 'Zumiez 728',
-    url: 'https://www.zumiez.com/',
-  },
+  }
 ]
