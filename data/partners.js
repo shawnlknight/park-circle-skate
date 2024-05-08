@@ -127,6 +127,10 @@ export const partnersListTwo = [
     url: 'https://www.teamphun.com/',
   },
   {
+    name: 'The Bearded Ax',
+    url: 'https://thebeardedax.com/',
+  },
+  {
     name: 'The Brew Cellar',
     url: 'https://thebrewcellar.net/',
   },
