@@ -3,7 +3,7 @@ export default function ExternalLink(props) {
 
   return (
     <a
-      className="text-sky-700 hover:text-yellow-500 underline decoration-sky-500"
+      className="text-sky-800 hover:text-sky-500 underline decoration-sky-500"
       href={href}
       target="_blank"
       rel="noreferrer"
