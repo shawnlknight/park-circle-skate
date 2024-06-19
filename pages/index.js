@@ -72,10 +72,10 @@ export default function Home() {
               href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
               displayText="NCPD Cops Athletic Program"
             />{' '}
-            and the{' '}
+            and {' '}
             <ExternalLink
-              href="https://cydc.org/"
-              displayText="Carolina Youth Development Center"
+              href="https://landmarksforfamilies.org/"
+              displayText="Landmarks for Families"
             />
             .
           </p>
@@ -471,10 +471,10 @@ export default function Home() {
                   href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
                   displayText="Cops Athletic Program"
                 />{' '}
-                and the{' '}
+                and {' '}
                 <ExternalLink
-                  href="https://cydc.org/"
-                  displayText="Carolina Youth Development Center"
+                  href="https://landmarksforfamilies.org/"
+                  displayText="Landmarks for Families"
                 />{' '}
                 to provide beginner skateboarding lessons for over 20 youth
                 participants.
@@ -520,7 +520,7 @@ export default function Home() {
                 height={430}
               />
               <p className="text-sm text-center text mb-10">
-                Skateboard clinic with the Carolina Youth Development Center{' '}
+                Skateboard clinic with Landmarks for Families{' '}
                 {`(November 12th, 2022)`}
               </p>
               <Image
@@ -531,7 +531,7 @@ export default function Home() {
                 height={430}
               />
               <p className="text-sm text-center text">
-                Skateboard clinic with the Carolina Youth Development Center{' '}
+                Skateboard clinic with Landmarks for Families{' '}
                 {`(April 1st, 2023)`}
               </p>
             </div>
