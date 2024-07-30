@@ -1,15 +1,15 @@
 export const partnersListOne = [
   {
     name: 'Accent on Wine',
-    url: 'https://www.accentonwine.com/',
+    url: 'https://www.facebook.com/AccentParkCircle/',
   },
   {
     name: 'Barrel House Spirits',
-    url: 'https://www.instagram.com/barrelhousespirits/',
+    url: 'https://www.facebook.com/people/Barrel-House-Spirits-PC/61550933453807/',
   },
   {
     name: 'Black Octopus Mercantile',
-    url: 'https://www.instagram.com/blackoctopusmercantile/',
+    url: 'https://www.blackoctopusmerch.com/',
   },
   {
     name: 'Continuum',
