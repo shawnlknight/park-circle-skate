@@ -5,7 +5,7 @@ export const partnersListOne = [
   },
   {
     name: 'Barrel House Spirits',
-    url: 'https://www.facebook.com/people/Barrel-House-Spirits-PC/61550933453807/?_rdr',
+    url: 'https://www.facebook.com/people/Barrel-House-Spirits-PC/61550933453807/',
   },
   {
     name: 'Black Octopus Mercantile',
