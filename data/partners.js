@@ -4,6 +4,10 @@ export const partnersListOne = [
     url: 'https://www.facebook.com/AccentParkCircle/',
   },
   {
+    name: 'Azalea Motors',
+    url: 'https://azaleamotors.com/',
+  },
+  {
     name: 'Barrel House Spirits',
     url: 'https://www.facebook.com/people/Barrel-House-Spirits-PC/61550933453807/',
   },
@@ -149,5 +153,5 @@ export const partnersListTwo = [
   {
     name: 'Wind & Waves Brewing',
     url: 'https://www.windandwavesbrewing.com/',
-  }
+  },
 ]
