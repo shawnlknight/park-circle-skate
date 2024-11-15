@@ -44,6 +44,26 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="mb-28 text-center">
+          <h2
+            id="promo-video"
+            className={`${styles.headingFontFamily} text-4xl mb-5 pt-0`}
+          >
+            City of North Charleston Announces Skatepark!
+          </h2>
+          <div className={styles.videoWrapper}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/qy5yDKByACY?si=9X634FIK3ENWJFZQ"
+              title="YouTube video player - North Charleston Announces Skatepark!"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
         <div className="mb-10 text-center">
           <h2
             id="promo-video"
@@ -72,7 +92,7 @@ export default function Home() {
               href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
               displayText="NCPD Cops Athletic Program"
             />{' '}
-            and {' '}
+            and{' '}
             <ExternalLink
               href="https://landmarksforfamilies.org/"
               displayText="Landmarks for Families"
@@ -471,7 +491,7 @@ export default function Home() {
                   href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
                   displayText="Cops Athletic Program"
                 />{' '}
-                and {' '}
+                and{' '}
                 <ExternalLink
                   href="https://landmarksforfamilies.org/"
                   displayText="Landmarks for Families"
@@ -651,9 +671,9 @@ export default function Home() {
             <h3 className="py-4 text-2xl">{`(${numberOfPartners} total)`}</h3>
             <div className="text-left text-xl">
               <p className="mb-6">
-                Our Community Partners are local businesses who have
-                expressed their support for a skatepark in Park Circle and are
-                also advocating for this community improvement.
+                Our Community Partners are local businesses who have expressed
+                their support for a skatepark in Park Circle and are also
+                advocating for this community improvement.
               </p>
               <SupportersList />
             </div>
