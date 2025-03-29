@@ -393,7 +393,7 @@ export default function Home() {
                 height={550}
               />
               <p className="mb-4 pt-6">
-                Park Circle Skate is collaborating with community partners to
+                Park Circle Skate has collaborated with community partners to
                 offer <b>free skateboarding clinics to the youth</b> of North
                 Charleston.
               </p>
@@ -410,15 +410,6 @@ export default function Home() {
                 />{' '}
                 to provide beginner skateboarding lessons for over 20 youth
                 participants.
-              </p>
-              <p className="mb-4">
-                If your organization is interested in co-hosting a skateboarding
-                clinic, please contact Park Circle Skate at{' '}
-                <ExternalLink
-                  href="mailto:parkcircleskate@gmail.com"
-                  displayText="parkcircleskate@gmail.com"
-                />
-                .
               </p>
               <p className="mb-6">
                 Follow us on{' '}
