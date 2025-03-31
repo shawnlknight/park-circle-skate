@@ -95,9 +95,8 @@ export default function Home() {
             </h3>
             <p className="text-xl mb-8">
               Park Circle residents have access to a variety of recreational
-              spaces with many being renovated to offer the best facilities to
-              the deserving community. However, one important activity that is
-              an <b>athletic sport, art form, and lifestyle</b> has been
+              spaces. However, one important activity that is an{' '}
+              <b>athletic sport, art form, and lifestyle</b> has been
               overlooked, and that is skateboarding.
             </p>
             <blockquote className={`${styles.blockquote} p-4 bg-slate-50 mb-8`}>
