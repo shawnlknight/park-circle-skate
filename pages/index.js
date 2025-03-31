@@ -382,7 +382,7 @@ export default function Home() {
               id="programs"
               className={`${styles.headingFontFamily} text-4xl mb-2 pt-10`}
             >
-              Youth Skateboarding Programs
+              Skateboard Clinics
             </h2>
             <div className="text-left text-xl">
               <Image
@@ -398,9 +398,9 @@ export default function Home() {
                 Charleston.
               </p>
               <p className="mb-4">
-                Recent collaborations include partnering with the NCPD&apos;s{' '}
+                Collaborations include partnering with the NCPD&apos;s{' '}
                 <ExternalLink
-                  href="https://www.northcharleston.org/government/police/programs-and-services/cops-athletic-program/"
+                  href="https://police.northcharleston.org/programs_eventss/cops_athletic_program.php"
                   displayText="Cops Athletic Program"
                 />{' '}
                 and{' '}
@@ -410,19 +410,6 @@ export default function Home() {
                 />{' '}
                 to provide beginner skateboarding lessons for over 20 youth
                 participants.
-              </p>
-              <p className="mb-6">
-                Follow us on{' '}
-                <ExternalLink
-                  href="https://instagram.com/parkcircleskate"
-                  displayText="Instagram"
-                />{' '}
-                or{' '}
-                <ExternalLink
-                  href="https://www.facebook.com/groups/882978432691586/"
-                  displayText="Facebook"
-                />{' '}
-                for more updates on the programs!
               </p>
               <Image
                 src="/skate-clinic-one.png"
