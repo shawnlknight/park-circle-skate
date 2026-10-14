@@ -65,7 +65,7 @@ export const partnersListOne = [
   },
   {
     name: 'Mermaid Miscellany',
-    url: 'https://www.mermaidmiscellany.com/',
+    // url: 'https://www.mermaidmiscellany.com/',
   },
   {
     name: 'Mickelsen Dalton LLC',
@@ -131,12 +131,12 @@ export const partnersListTwo = [
     url: 'https://www.teamphun.com/',
   },
   {
-    name: 'The Bearded Ax',
-    url: 'https://thebeardedax.com/',
+    name: 'Bearded, A Social Tavern',
+    url: 'https://www.beardedchs.com/',
   },
   {
     name: 'The Brew Cellar',
-    url: 'https://thebrewcellar.net/',
+    // url: 'https://thebrewcellar.net/',
   },
   {
     name: 'The Junction Kitchen & Provisions',
@@ -152,6 +152,6 @@ export const partnersListTwo = [
   },
   {
     name: 'Wind & Waves Brewing',
-    url: 'https://www.windandwavesbrewing.com/',
+    // url: 'https://www.windandwavesbrewing.com/',
   },
 ]

@@ -289,7 +289,7 @@ export default function Home() {
                 </b>{' '}
                 (
                 <ExternalLink
-                  href="https://www.google.com/url?q=https://pullias.usc.edu/blog/groundbreaking-study-redefines-skateboarding-culture/&sa=D&source=docs&ust=1659031588220165&usg=AOvVaw39D_tAen3WK8V3Ss-G4QMi"
+                  href="https://pulliasarchive.equitygraded.org/blog/groundbreaking-study-redefines-skateboarding-culture/"
                   displayText="Pullias Center for Higher Education"
                 />
                 )
@@ -585,16 +585,6 @@ export default function Home() {
             >
               <h3>Follow us on Instagram!</h3>
               <p className="text-sm">@parkcircleskate</p>
-            </a>
-
-            <a
-              href="https://www.facebook.com/groups/882978432691586/"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.card}
-            >
-              <h3>Join our Facebook group!</h3>
-              <p className="text-sm">Park Circle Skate</p>
             </a>
             <a href="mailto:parkcircleskate@gmail.com" className={styles.card}>
               <h3>Email us!</h3>
