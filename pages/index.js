@@ -256,17 +256,6 @@ export default function Home() {
                 and perfecting it. This persistance teaches them valuable
                 lessons that transfer over to other aspects of life.
               </p>
-              <blockquote className={`${styles.blockquoteAlternate} p-4 mb-8`}>
-                <p className="p-4 italic">
-                  One of the great activities is skateboarding. To learn to do a
-                  skateboard trick - how many times you&apos;ve got to get
-                  something wrong before you get it right... you learn to do
-                  that trick, now you&apos;ve got a life lesson. Whenever I see
-                  those skateboard kids, I think, &apos;those skateboard kids
-                  will be alright.&apos;
-                </p>
-                <span>- Jerry Seinfeld, Comedian and Social Observer</span>
-              </blockquote>
               <h3 className={`text-3xl mb-5`}>Form of exercise</h3>
               <p className="mb-6">
                 Skateboarding is an <b>excellent form of exercise</b> and gets
